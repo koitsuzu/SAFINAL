@@ -1,0 +1,21 @@
+"symbol-youbike": {
+		"icon-image": [
+			"case",
+			[">=", ["get", "class-avg"], 29],
+			"ered",
+			["<", ["get", "class-avg"], 25],
+			"egreen",
+			"eyellow"
+		],
+		"icon-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			1,
+			14,
+			1.5,
+			22,
+			2,
+		],
+	},
