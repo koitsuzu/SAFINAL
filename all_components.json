@@ -5416,6 +5416,98 @@
 			"contributors": [
 				"tuic"
 			]
+		},		"250": {
+			"id": 250,
+			"index": "social housing",
+			"map_config": [
+				{
+					"index": "social housing",
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "type"],
+							"八德一號",
+							"#4AD84A",
+							"中路一號",
+							"#FFAD66",
+							"中壢一號",
+							"#9EDBFF",
+							"平鎮一號",
+							"#FFCA9C",
+							"楊梅一號",
+							"#20E1FF",
+							"蘆竹一號",
+							"#4D619D",
+							"八德二號",
+							"#4AD84A",
+							"八德三號",
+							"#4AD84A",
+							"中路二號",
+							"#FFAD66",
+							"中路三號",
+							"#FFAD66",
+							"中路四號",
+							"#FFAD66",
+							"蘆竹二號",
+							"#4D619D"
+						]
+					},
+					"property": [],
+
+					"title": "社會住宅"
+				}
+			],
+			"chart_config": {
+				"types": ["TreemapChart", "BarChart"],
+				"color": [
+					"#FFCA9C",
+
+					"#FFAD66",
+					"#4D619D",
+
+					"#20E1FF",
+					"#4D619D",
+					"#4AD84A",
+
+					"#4AD84A",
+					"#4AD84A",
+					"#9EDBFF",
+					"#9EDBFF",
+					"#9EDBFF",
+					"#9EDBFF"
+				],
+				"unit": "戶",
+				"map_filter": [
+					"type",
+					[
+						"八德一號",
+						"中路一號",
+						"中壢一號",
+						"平鎮一號",
+						"楊梅一號",
+						"蘆竹一號",
+						"八德二號",
+						"八德三號",
+						"中路二號",
+						"中路三號",
+						"中路四號",
+						"蘆竹二號"
+					]
+				]
+			},
+
+			"name": "社會住宅",
+			"source": "桃園市政府住宅發展處",
+			"time_from": "024-01-12T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置",
+			"long_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置，資料來源為桃園市政府住宅發展處開放資料，不定期更新。",
+			"use_case": "桃園市社會住宅點位的戶數和分布位置資料將幫助我們探討社宅在城市中的分佈情況及其相關性。",
+			"links": ["https://ohd.tycg.gov.tw/"],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
 	}
 }
