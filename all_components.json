@@ -1846,57 +1846,42 @@
 					"property": [
 						{
 							"key": "station",
-							"name": "場站名稱"
+							"name": "國小名稱"
+						},
+						
+						{
+							"key": "total_child",
+							"name": "國小總人數"
 						},
 						{
-							"key": "station_id",
-							"name": "場站ID"
-						},
-						{
-							"key": "total_bikes",
-							"name": "總車輛數"
-						},
-						{
-							"key": "left_bikes",
-							"name": "剩餘車輛"
+							"key": "class-avg",
+							"name": "每班平均人數"
 						}
 					],
 					"icon": "youbike",
 					"type": "symbol",
-					"title": "youbike站點"
+					"title": "國小概況"
 				}
 			],
 			"chart_config": {
-				"types": [
-					"GuageChart",
-					"BarPercentChart"
-				],
-				"color": [
-					"#9DC56E",
-					"#356340",
-					"#9DC56E"
-				],
+				"types": ["GuageChart", "BarPercentChart"],
+				"color": ["#9DC56E", "#356340", "#9DC56E"],
 				"unit": "輛",
-				"categories": [
-					"Youbike在站車輛"
-				]
+				"categories": ["Youbike在站車輛"]
 			},
-			"source": "交通局",
-			"name": "YouBike使用情況",
+			"source": "教育局",
+			"name": "國小分布",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
-			"update_freq": 5,
-			"update_freq_unit": "minute",
-			"short_desc": "顯示當前全市共享單車YouBike的使用情況",
-			"long_desc": "顯示當前全市共享單車YouBike的使用情況，格式為可借車輛數/全市車位數。資料來源為交通局公開資料，每5分鐘更新。",
-			"use_case": "藉由YouBike使用情況的顯示，以及全市車輛約為柱數一半，可掌握全市目前停在站上與被使用中的車輛大約數字，並可在地圖模式查詢各站點詳細資訊。",
+			
+			"short_desc": "顯示當前全市國小分布",
+			"long_desc": "顯示當前全市國小分布，也顯示國小總人數及班級平均人數。資料來源為教育局公開資料。",
+			"use_case": "藉由當前全市國小分布，也顯示國小總人數及班級平均人數，可掌握全市目前國小分布以及大約人數，並可在地圖模式查詢各國小位置及人數資訊。",
 			"links": [
 				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
 			],
 			"tags": [],
-			"contributors": [
-				"tuic"
-			]
+			"contributors": ["tuic"]
 		},
 		"61": {
 			"id": 61,

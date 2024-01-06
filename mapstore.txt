@@ -1,0 +1,22 @@
+addSymbolSources() {
+			const images = [
+				"metro",
+				"triangle_green",
+				"triangle_white",
+				"bike_green",
+				"bike_orange",
+				"bike_red",
+				"ered",
+				"eyellow",
+				"egreen"
+			];
+			images.forEach((element) => {
+				this.map.loadImage(
+					`${BASE_URL}/images/map/${element}.png`,
+					(error, image) => {
+						if (error) throw error;
+						this.map.addImage(element, image);
+					}
+				);
+			});
+		},
