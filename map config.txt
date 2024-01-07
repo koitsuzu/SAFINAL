@@ -417,5 +417,25 @@ export const maplayerCommonLayout = {
 				22,
 				2,
 			],
-		}
+		},
+		"symbol-hos": {
+				"icon-image":[
+					"case",
+					["==",["get","hos"],"1"],
+					"hos",
+					"health",
+				],
+				"icon-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					11.99,
+					1,
+					14,
+					1.5,
+					22,
+					2,
+				]
+		
+			}
 };
