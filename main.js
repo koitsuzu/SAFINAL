@@ -35,7 +35,7 @@ import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import FunnelCharts from "./components/charts/FunnelCharts.vue";
-import TaoyuanChart from "./components/charts/TaoyuanChart.vue";
+import TaoyuanChart from "./components/charts/TaoyuanChart.vue";// 貼這個！！！！！！！！
 
 const app = createApp(App);
 
@@ -59,5 +59,5 @@ app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("FunnelCharts", FunnelCharts);
-app.component("TaoyuanChart", TaoyuanChart);
+app.component("TaoyuanChart", TaoyuanChart);// 貼這個！！！！！！！！
 app.mount("#app");
