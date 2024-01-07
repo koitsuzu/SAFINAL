@@ -5931,54 +5931,54 @@
 			"id": 456,
 			"index": "hospitals",
 			"map_config": [
-				{
+					{
 					"index": "hos",
-					"property": [
-						{
-							"key": "name",
-							"name": "名稱"
-						},
-						{
-							"key": "addr",
-							"name": "地址"
-						}
+					"property": [                                           
+							{
+								"key": "name",
+								"name": "名稱"
+							},
+							{
+								"key": "addr",
+								"name": "地址"
+							}
 					],
 					"type": "symbol",
 					"icon": "hos",
+					"size": "small",
 					"title": "醫療機構"
-				}
+					}
+					
 			],
 			"name": "醫療院所分布",
 			"chart_config": {
-				"types": [
-					"MapLegend"
-				],
-				"map_filter": [
-					"type",
-					[
-						"醫院",
-						"衛生所"
-					]
-				]
+					"types": ["MapLegend"],
+					"map_filter": ["hos", ["1", "0"]]
 			},
 			"chart_data": [
-				{
-					"type": "symbol",
-					"name": "醫院",
-					"color": "#86e9f6",
-					"value": null,
-					"icon": "hos"
+					{
+							"type": "symbol",
+							"name": "醫院",
+							"color": "#86e9f6",
+							"value": null,
+							"icon": "hos"
+					},
+					{
+						"type": "symbol",
+						"name": "衛生所",
+						"color": "#86e9f6",
+						"value": null,
+						"icon": "health"
 				}
-			],
+			
+			],			
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"source": "衛生局",
-			"contributors": [
-				"tuic"
-			]
-		},
+			"contributors": ["tuic"]
+        	},
 		"600": {
 			"id": 600,
 			"index": "social_house",
