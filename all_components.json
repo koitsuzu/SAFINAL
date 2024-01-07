@@ -5433,82 +5433,96 @@
 			"contributors": [
 				"tuic"
 			]
-		},		"250": {
+		},"250": {
 			"id": 250,
-			"index": "social housing",
+			"index": "finish_house",
 			"map_config": [
 				{
-					"index": "social housing",
+					"index": "finish_house",
 					"paint": {
+						"circle-radius": 8,
 						"circle-color": [
 							"match",
-							["get", "type"],
+							["get", "name"],
 							"八德一號",
-							"#4AD84A",
+							"#e7c6ff",
 							"中路一號",
-							"#FFAD66",
+							"#ffcfd2",
 							"中壢一號",
-							"#9EDBFF",
+							"#ff70a6",
 							"平鎮一號",
-							"#FFCA9C",
+							"#ccc5b9",
 							"楊梅一號",
-							"#20E1FF",
+							"#669bbc",
 							"蘆竹一號",
-							"#4D619D",
+							"#9EDBFF",
 							"八德二號",
-							"#4AD84A",
+							"#e7c6ff",
 							"八德三號",
-							"#4AD84A",
+							"#e7c6ff",
 							"中路二號",
-							"#FFAD66",
+							"#ffcfd2",
 							"中路三號",
-							"#FFAD66",
+							"#ffcfd2",
 							"中路四號",
-							"#FFAD66",
-							"蘆竹二號",
-							"#4D619D"
+							"#ffcfd2",
+							
+							"#9EDBFF"
 						]
 					},
-					"property": [],
-
-					"title": "社會住宅"
+					"property": [{
+						"key": "progress",
+						"name": "進度"
+					},
+					{
+						"key": "name",
+						"name": "名稱"
+					},
+					{
+						"key": "address",
+						"name": "地址"
+					},
+					{
+						"key": "households",
+						"name": "戶數"
+					}],
+					"type": "circle",
+					"size": "big",
+					"title": "已開放入住社會住宅"
 				}
 			],
 			"chart_config": {
 				"types": ["TreemapChart", "BarChart"],
 				"color": [
-					"#FFCA9C",
-
-					"#FFAD66",
-					"#4D619D",
-
-					"#20E1FF",
-					"#4D619D",
-					"#4AD84A",
-
-					"#4AD84A",
-					"#4AD84A",
+					"#ff70a6",
+					"#ccc5b9",							
+					"#669bbc",																			
 					"#9EDBFF",
-					"#9EDBFF",
-					"#9EDBFF",
-					"#9EDBFF"
+					"#e7c6ff",						
+					"#9EDBFF",							
+					"#e7c6ff",							
+					"#e7c6ff",							
+					"#ffcfd2",							
+					"#ffcfd2",							
+					"#ffcfd2",							
+					"#ffcfd2"
 				],
 				"unit": "戶",
 				"map_filter": [
-					"type",
+					"name",
 					[
-						"八德一號",
-						"中路一號",
 						"中壢一號",
 						"平鎮一號",
 						"楊梅一號",
 						"蘆竹一號",
-						"八德二號",
-						"八德三號",
+						"八德一號",					
+						"蘆竹二號",						 
+						"八德二號", 
+						"八德三號", 
+						"中路一號", 
 						"中路二號",
 						"中路三號",
-						"中路四號",
-						"蘆竹二號"
+						"中路四號"
 					]
 				]
 			},
