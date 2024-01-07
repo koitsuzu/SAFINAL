@@ -1,0 +1,24 @@
+{
+	"type": "FeatureCollection",
+	"crs": { "type": "name"},
+	"features": [
+			
+		
+	{ "type": "Feature", "properties": { "dist": "八德區", "station": "中壢長榮醫院", "hos": 7 }, "geometry": { "type": "Point", "coordinates": [ 121.2371019, 24.9495852] } }
+   ,
+   { "type": "Feature", "properties": { "dist": "中壢區", "station": "天成醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.2290242, 24.9626431] } }
+   ,
+   { "type": "Feature", "properties": { "dist": "中壢區", "station": "華揚醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.2299504, 24.9531213] } }
+  ,
+  { "type": "Feature", "properties": { "dist": "中壢區", "station": "懷寧醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.2054961, 24.9614439] } }
+  ,
+  { "type": "Feature", "properties": { "dist": "楊梅區", "station": "國軍桃園總醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.1857598, 24.915716] } }
+  ,
+  { "type": "Feature", "properties": { "dist": "龜山區", "station": "大明醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.3377334, 24.9954212] } }
+  ,
+  { "type": "Feature", "properties": { "dist": "龜山區", "station": "長庚醫療財團法人林口長庚紀念醫院", "total_child": 2194 }, "geometry": { "type": "Point", "coordinates": [ 121.368323, 25.0626266] } }
+	
+	
+	]
+	}
+	
