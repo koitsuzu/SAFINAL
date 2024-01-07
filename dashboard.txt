@@ -1,0 +1,6 @@
+{
+			"name": "SA",
+			"index": "SA",
+			"components": ["158","159","160","162","250","600"],
+			"icon": "apartment"
+		}
