@@ -1846,74 +1846,57 @@
 					"property": [
 						{
 							"key": "station",
-							"name": "國小名稱"
-						},
-						
-						{
-							"key": "total_child",
-							"name": "國小總人數"
+							"name": "場站名稱"
 						},
 						{
-							"key": "class-avg",
-							"name": "每班平均人數"
+							"key": "station_id",
+							"name": "場站ID"
+						},
+						{
+							"key": "total_bikes",
+							"name": "總車輛數"
+						},
+						{
+							"key": "left_bikes",
+							"name": "剩餘車輛"
 						}
 					],
 					"icon": "youbike",
 					"type": "symbol",
-					"title": "國小概況"
+					"title": "youbike站點"
 				}
 			],
 			"chart_config": {
-				"categories": [
-					"桃園區",
-					"平鎮區",				
-					"大溪區",
-					"楊梅區",
-					"蘆竹區",
-					"新屋區",					
-					"龜山區",
-					"八德區",
-					"龍潭區",
-					"大園區",					
-					"觀音區",
-					"復興區",
-					"中壢區"
+				"types": [
+					"GuageChart",
+					"BarPercentChart"
 				],
-				"types": ["ColumnChart","GuageChart", "BarPercentChart"],
-				"color": ["#00DB00","#FFD306","#EA0000"],
-				"unit": "間",
-				"map_filter": [
-					"dist",
-					[
-						"桃園區",
-					"平鎮區",				
-					"大溪區",
-					"楊梅區",
-					"蘆竹區",
-					"新屋區",					
-					"龜山區",
-					"八德區",
-					"龍潭區",
-					"大園區",					
-					"觀音區",
-					"復興區",
-					"中壢區"
-					]
+				"color": [
+					"#9DC56E",
+					"#356340",
+					"#9DC56E"
+				],
+				"unit": "輛",
+				"categories": [
+					"Youbike在站車輛"
 				]
 			},
-			"source": "教育局",
-			"name": "國小分布",
+			"source": "交通局",
+			"name": "YouBike使用情況",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
-			
-			"short_desc": "顯示當前全市國小分布",
-			"long_desc": "顯示當前全市國小分布，也顯示國小總人數及班級平均人數。資料來源為教育局公開資料。",
-			"use_case": "藉由當前全市國小分布，也顯示國小總人數及班級平均人數，可掌握全市目前國小分布以及大約人數，並可在地圖模式查詢各國小位置及人數資訊。",
+			"update_freq": 5,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示當前全市共享單車YouBike的使用情況",
+			"long_desc": "顯示當前全市共享單車YouBike的使用情況，格式為可借車輛數/全市車位數。資料來源為交通局公開資料，每5分鐘更新。",
+			"use_case": "藉由YouBike使用情況的顯示，以及全市車輛約為柱數一半，可掌握全市目前停在站上與被使用中的車輛大約數字，並可在地圖模式查詢各站點詳細資訊。",
 			"links": [
 				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": [
+				"tuic"
+			]
 		},
 		"61": {
 			"id": 61,
@@ -2027,7 +2010,7 @@
 		},
 		"72": {
 			"id": 72,
-			"index": "dispatch",
+			"index": "dispatchingpoint",
 			"map_config": [
 				{
 					"index": "dispatchingpoint",
@@ -2204,7 +2187,7 @@
 			"name": "捷運人流趨勢",
 			"history_data": true,
 			"source": "捷運局",
-			"time_from": "2023-05-27T23:29:00+08:00",
+			"time_from": "2023-05-26T23:29:00+08:00",
 			"time_to": null,
 			"update_freq": 30,
 			"update_freq_unit": "minute",
@@ -2320,7 +2303,7 @@
 					"title": "捷運出站人流"
 				},
 				{
-					"index": "mrt-rect_offset50",
+					"index": "-rect_offset50",
 					"paint": {
 						"fill-extrusion-color": "#2e999b",
 						"fill-extrusion-opacity": 0.8,
@@ -2375,8 +2358,8 @@
 			"source": "捷運局",
 			"time_from": "2023-05-26T23:29:00+08:00",
 			"time_to": null,
-			"update_freq": 30,
-			"update_freq_unit": "minute",
+			"update_freq": 1,
+			"update_freq_unit": "year",
 			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
 			"long_desc": "顯示過去一段時間內全市捷運進出站人流變化，資料來源為台北市捷運工程局內部資料，每30分鐘更新。",
 			"use_case": "掌握過去一段時間內台北市捷運進出站人流變化，包括高峰與低峰時段，有助於更好地管理交通流量與安排車輛運行。",
@@ -3151,7 +3134,7 @@
 							"鈉光燈",
 							"#FF8C00",
 							"LED燈",
-							"#FFE677",
+							"#b84ecc",
 							"#fff"
 						]
 					},
@@ -4176,7 +4159,7 @@
 								],
 								1700
 							],
-							"#E6DF44",
+							"#f5f116",
 							[
 								"<=",
 								[
@@ -4238,7 +4221,7 @@
 					"icon": null
 				}
 			],
-			"history_data": false,
+			"history_data": true,
 			"chart_config": {
 				"categories": [
 					"北投區",
@@ -4259,13 +4242,13 @@
 					"RadarChart",
 					"DistrictChart"
 				],
+				"unit": "點",
 				"color": [
 					"#E6DF44",
 					"#F4633C",
 					"#D63940",
 					"#9C2A4B"
 				],
-				"unit": "點",
 				"map_filter": [
 					"dist",
 					[
@@ -4712,7 +4695,7 @@
 			"index": "youbike_grid",
 			"chart_config": {
 				"types": [
-					"MonochromeChart",
+					"TreemapChart",
 					"BarChart"
 				],
 				"unit": "個網格",
@@ -4831,10 +4814,10 @@
 		},
 		"147": {
 			"id": 147,
-			"index": "youbike",
+			"index": "youbike_demand",
 			"map_config": [
 				{
-					"index": "youbike",
+					"index": "youbike_demand",
 					"type": "fill",
 					"paint": {
 						"fill-color": [
@@ -4863,12 +4846,12 @@
 							"name": "總體需求"
 						}
 					],
-					"title": "888"
+					"title": "潛在需求"
 				}
 			],
 			"chart_config": {
 				"types": [
-					"MonochromeChart",
+					"TreemapChart",
 					"BarChart"
 				],
 				"color": [
@@ -4909,10 +4892,10 @@
 		},
 		"148": {
 			"id": 148,
-			"index": "youbike_11",
+			"index": "youbike",
 			"map_config": [
 				{
-					"index": "youbike_11",
+					"index": "youbike",
 					"type": "fill",
 					"paint": {
 						"fill-color": [
@@ -4941,7 +4924,7 @@
 							"name": "總體需求"
 						}
 					],
-					"title": "777"
+					"title": "潛在需求"
 				}
 			],
 			"chart_config": {
@@ -4969,7 +4952,7 @@
 					]
 				]
 			},
-			"name": "555",
+			"name": "YouBike未設站區潛在需求",
 			"source": "資訊局",
 			"time_from": "2023-07-28T00:00:00+08:00",
 			"time_to": null,
@@ -4987,145 +4970,213 @@
 		},
 		"149": {
 			"id": 149,
-			"index": "metro_3d",
+			"index": "AED",
 			"map_config": [
 				{
-					"color": "#555",
-					"index": "traffic_metro_line",
+					"index": "AEDpoint",
+					"heatmap": {
+						"filter": "type",
+						"zoom": 16.5
+					},
 					"paint": {
-						"line-color": [
-							"match",
-							[
-								"get",
-								"mrtid"
-							],
-							[
-								"BL"
-							],
-							"#0070bd",
-							[
-								"O"
-							],
-							"#f8b61c",
-							[
-								"G"
-							],
-							"#008659",
-							[
-								"R"
-							],
-							"#e3002c",
-							[
-								"BR"
-							],
-							"#c48c31",
-							[
-								"Y"
-							],
-							"#ffdb00",
-							"#505050"
-						]
+						"circle-color": "#90dce9"
 					},
 					"property": [
 						{
-							"key": "mrtsys",
-							"name": "系統"
+							"key": "案件編號",
+							"name": "編號"
 						},
 						{
-							"key": "mrtid",
-							"name": "代號"
+							"key": "案件類型",
+							"name": "類型"
 						},
 						{
-							"key": "mrtcode",
-							"name": "路線"
+							"key": "成案時間",
+							"name": "成案時間"
 						}
 					],
-					"type": "line",
-					"size": null,
-					"icon": null,
-					"title": "捷運路線"
-				},
-				{
-					"index": "mrt-rect",
-					"paint": {
-						"fill-extrusion-color": "#80e3d4",
-						"fill-extrusion-opacity": 0.8,
-						"fill-extrusion-height": [
-							"interpolate",
-							[
-								"linear"
-							],
-							[
-								"to-number",
-								[
-									"get",
-									"ppl_out"
-								]
-							],
-							0,
-							0,
-							10000,
-							5000
-						]
-					},
-					"property": [
-						{
-							"key": "id",
-							"name": "ID"
-						},
-						{
-							"key": "properties/NAME",
-							"name": "站名"
-						},
-						{
-							"key": "ppl_out",
-							"name": "出站人數"
-						}
-					],
-					"type": "fill-extrusion",
-					"title": "捷運出站人流"
-				},
-				{
-					"index": "mrt-rect_offset50",
-					"paint": {
-						"fill-extrusion-color": "#2e999b",
-						"fill-extrusion-opacity": 0.8,
-						"fill-extrusion-height": [
-							"interpolate",
-							[
-								"linear"
-							],
-							[
-								"to-number",
-								[
-									"get",
-									"ppl_in"
-								]
-							],
-							0,
-							0,
-							10000,
-							5000
-						]
-					},
-					"property": [
-						{
-							"key": "id",
-							"name": "ID"
-						},
-						{
-							"key": "properties/NAME",
-							"name": "站名"
-						},
-						{
-							"key": "ppl_in",
-							"name": "進站人數"
-						}
-					],
-					"type": "fill-extrusion",
-					"title": "捷運進站人流"
+					"type": "circle",
+					"icon": "heatmap",
+					"title": "AED地點"
 				}
 			],
+			"history_data": true,
+			"chart_config": {
+				"types": [
+					"BarChart",
+					"DonutChart"
+				],
+				"color": [
+					"#fc9f0b",
+					"#dac117",
+					"#FDD79B",
+					"#CA7F09"
+				],
+				"unit": "件",
+				"map_filter": [
+					"案件類型",
+					[
+						"休閒場所",
+						"學校、集會場所或特殊機構",
+						"交通標誌及設施物損壞(含汙損)、傾斜",
+						"其他",
+						"旅宿場所",
+						"購物場所",
+						"交通要衝",
+						"公眾浴場或溫泉區",
+						"長距離交通工具"
+					]
+				]
+			},
+			"name": "AED地點",
+			"source": "AED地點",
+			"time_from": "2023-05-25T00:00:00+08:00",
+			"time_to": "2023-06-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "week",
+			"short_desc": "AED地點-short_desc",
+			"long_desc": "AED地點-long_desc",
+			"use_case": "AED地點-use_case",
+			"links": null,
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"150": {
+			"id": 150,
+			"index": "child",
+			"map_config": [
+				{
+					"index": "child",
+					"paint": {
+						"circle-color": [
+							"case",
+							[
+								"==",
+								[
+									"get",
+									"sliced_type"
+								],
+								"私立"
+							],
+							"#FE5F55",
+							[
+								"==",
+								[
+									"get",
+									"sliced_type"
+								],
+								"準公"
+							],
+							"#F0B67F",
+							[
+								"==",
+								[
+									"get",
+									"sliced_type"
+								],
+								"公辦"
+							],
+							"#A6D9F7",
+							"#9C2A4B"
+						]
+					},
+					"property": [
+						{
+							"key": "placename",
+							"name": "托兒所名稱"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						},
+						{
+							"key": "phone",
+							"name": "電話"
+						},
+						{
+							"key": "sliced_type",
+							"name": "類別"
+						},
+						{
+							"key": "sliced_address",
+							"name": "區"
+						}
+					],
+					"type": "circle",
+					"title": "托兒所",
+					"size": "big",
+					"icon": null
+				}
+			],
+			"history_data": true,
+			"chart_config": {
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"types": [
+					"RadarChart",
+					"ColumnChart",
+					"DistrictChart"
+				],
+				"color": [
+					"#ABE188",
+					"#F7EF99",
+					"#DB30B9",
+					"#9C2A4B"
+				],
+				"unit": "間",
+				"map_filter": [
+					"sliced_address",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			},
+			"name": "托兒所",
+			"source": "台北政府",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 10,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示當前全市道路施工的數量統計",
+			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
+			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"151": {
+			"id": 151,
+			"index": "",
+			"map_config": null,
 			"chart_config": {
 				"color": [
 					"#2e999b",
@@ -5155,55 +5206,235 @@
 				"tuic"
 			]
 		},
-		"154": {
-			"id": 154,
-			"index": "street_lamps",
+		"152": {
+			"id": 152,
+			"index": "parent_child_center",
+			"history_data": true,
 			"map_config": [
 				{
-					"index": "work_street_light",
+					"index": "parent_child_center",
 					"paint": {
 						"circle-color": [
-							"match",
+							"case",
 							[
-								"get",
-								"light1"
+								"==",
+								[
+									"get",
+									"type"
+								],
+								"親子館"
 							],
-							"鈉光燈",
-							"#b7e28e",
-							"LED燈",
-							"#FFE677",
-							"#fff"
+							"#FF8C00",
+							[
+								"==",
+								[
+									"get",
+									"type"
+								],
+								"育兒友善園"
+							],
+							"#9f4333",
+							"#800026"
 						]
 					},
 					"property": [
 						{
-							"key": "dist",
-							"name": "行政區"
-						},
-						{
-							"key": "light1",
+							"key": "type",
 							"name": "類型"
 						},
 						{
-							"key": "watt1",
-							"name": "瓦數"
+							"key": "address",
+							"name": "地址"
 						},
 						{
-							"key": "light_count",
-							"name": "數量"
+							"key": "placename",
+							"name": "機構名稱"
 						},
 						{
-							"key": "height",
-							"name": "高度"
-						},
-						{
-							"key": "enable_year",
-							"name": "啟動年份"
+							"key": "telephone",
+							"name": "機構電話"
 						}
 					],
 					"type": "circle",
-					"size": "small",
-					"title": "路燈"
+					"size": "big"
+				}
+			],
+			"chart_config": {
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"types": [
+					"ColumnChart",
+					"DistrictChart"
+				],
+				"color": [
+					"#FFD306",
+					"#95CACA",
+					"#9999CC"
+				],
+				"unit": "家",
+				"map_filter": [
+					"sliced_address",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			},
+			"name": "親子館與育兒友善園據點",
+			"source": "社會局",
+			"time_from": null,
+			"time_to": "2022-05-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "顯示全市親子館與育兒友善園的數量和點位",
+			"long_desc": "顯示全市親子館與育兒友善園的數量和點位，",
+			"use_case": "顯示全市親子館與育兒友善園資訊",
+			"links": [
+				"https://data.taipei/dataset/detail?id=fd4779d0-827d-4ab3-8f65-2a356abad6d9"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"153": {
+			"id": 153,
+			"index": "postpartum_care_facility",
+			"map_config": [
+				{
+					"index": "postpartum_care_facility",
+					"property": [
+						{
+							"key": "placename",
+							"name": "醫院名稱"
+						},
+						{
+							"key": "Mombed",
+							"name": "媽媽床"
+						},
+						{
+							"key": "babybed",
+							"name": "嬰兒床"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						},
+						{
+							"key": "telephone",
+							"name": "電話"
+						},
+						{
+							"key": "起始日期",
+							"name": "起始日期"
+						},
+						{
+							"key": "結束日期",
+							"name": "結束日期"
+						}
+					],
+					"type": "symbol",
+					"icon": "triangle_green",
+					"title": "醫院位置"
+				}
+			],
+			"history_data": false,
+			"chart_config": {
+				"color": [
+					"#2f9ca1"
+				],
+				"types": [
+					"FunnelCharts",
+					"BarChart"
+				],
+				"unit": "家",
+				"map_filter": [
+					"c_name",
+					[
+						"北投",
+						"士林",
+						"內湖",
+						"南港",
+						"松山",
+						"信義",
+						"中山",
+						"大同",
+						"中正",
+						"萬華",
+						"大安",
+						"文山"
+					]
+				]
+			},
+			"name": "衛生局已立案之產後護理機構",
+			"source": "衛生局",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 10,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示當前全市道路施工的數量統計",
+			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
+			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"154": {
+			"id": 154,
+			"index": "HPV",
+			"map_config": [
+				{
+					"index": "HPV",
+					"property": [
+						{
+							"key": "醫事機構代碼",
+							"name": "醫事機構代碼"
+						},
+						{
+							"key": "醫療院所名稱",
+							"name": "醫療院所名稱"
+						},
+						{
+							"key": "地址",
+							"name": "地址"
+						},
+						{
+							"key": "電話",
+							"name": "電話"
+						}
+					],
+					"paint": {
+						"circle-color": "#02ffff"
+					},
+					"type": "circle",
+					"size": "big",
+					"title": "疫苗"
 				}
 			],
 			"chart_config": {
@@ -5212,7 +5443,7 @@
 					"ColumnChart"
 				],
 				"color": [
-					"#bc7262"
+					"#bc1232"
 				],
 				"unit": "間",
 				"map_filter": [
@@ -5250,97 +5481,500 @@
 				"tuic"
 			]
 		},
-		"455": {
-			"id": 455,
-			"index": "street_lamps",
+		"155": {
+			"id": 155,
+			"index": "building_age",
 			"map_config": [
 				{
-					"index": "work_street_light",
+					"index": "building_age",
 					"paint": {
 						"circle-color": [
-							"match",
+							"interpolate",
+							[
+								"linear"
+							],
 							[
 								"get",
-								"light1"
+								"age_2021"
 							],
-							"鈉光燈",
+							5,
+							"#8ce8ff",
+							6,
+							"#7febd0",
+							21,
 							"#b7e28e",
-							"LED燈",
-							"#FFE677",
-							"#fff"
+							41,
+							"#81612a"
+						],
+						"circle-radius": [
+							"interpolate",
+							[
+								"linear"
+							],
+							[
+								"zoom"
+							],
+							11.99,
+							0,
+							12,
+							0.5,
+							15,
+							2,
+							18,
+							5
 						]
 					},
 					"property": [
 						{
-							"key": "dist",
+							"key": "ptname",
 							"name": "行政區"
 						},
 						{
-							"key": "light1",
-							"name": "類型"
+							"key": "addr_key",
+							"name": "地址"
 						},
 						{
-							"key": "watt1",
-							"name": "瓦數"
-						},
-						{
-							"key": "light_count",
-							"name": "數量"
-						},
-						{
-							"key": "height",
-							"name": "高度"
-						},
-						{
-							"key": "enable_year",
-							"name": "啟動年份"
+							"key": "age_2021",
+							"name": "屋齡"
 						}
 					],
 					"type": "circle",
-					"size": "small",
-					"title": "路燈"
+					"title": "屋齡"
 				}
 			],
 			"chart_config": {
+				"color": [
+					"#9c7a3e",
+					"#b7e28e",
+					"#7febd0",
+					"#8ce8ff",
+					"#5151A2"
+				],
 				"types": [
-					"MonochromeChart",
+					"ColumnChart",
+					"BarPercentChart"
+				],
+				"unit": "件",
+				"categories": [
+					"越南",
+					"泰國",
+					"印度尼西亞",
+					"菲律賓"
+				]
+			},
+			"name": "107~111年各國犯罪數量",
+			"source": "",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示近年犯罪數量",
+			"long_desc": "",
+			"use_case": "",
+			"links": null,
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"156": {
+			"id": 156,
+			"index": "foreign worker",
+			"map_config": [
+				{
+					"index": "Foreign worker",
+					"paint": {
+						"circle-color": [
+							"印尼人",
+							"#8ce8ff",
+							"菲律賓人",
+							"#b7e28e",
+							"泰國人",
+							"#7febd0",
+							"越南人",
+							"#81612a"
+						]
+					}
+				}
+			],
+			"chart_config": {
+				"color": [
+					"#7febd0",
+					"#9c7a3e",
+					"#b7e28e",
+					"#8ce8ff"
+				],
+				"types": [
+					"BarPercentChart",
 					"ColumnChart"
 				],
+				"unit": "人次",
+				"categories": [
+					"107年",
+					"108年",
+					"109年",
+					"110年",
+					"111年"
+				]
+			},
+			"name": "每年外籍移工國籍比例",
+			"source": "",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示當前移工國籍分佈情況",
+			"long_desc": "",
+			"use_case": "",
+			"links": null,
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"157": {
+			"id": 157,
+			"index": "",
+			"map_config": null,
+			"chart_config": {
 				"color": [
-					"#bc7262"
+					"#01B468",
+					"#AFAFDC",
+					"#8A84E2",
+					"#005757",
+					"#E03616"
+				],
+				"types": [
+					"TimelineSeparateChart",
+					"TimelineStackedChart"
+				],
+				"unit": "千分比"
+			},
+			"name": "各國犯罪率比",
+			"history_data": true,
+			"source": "主計處",
+			"time_from": "固定資料",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
+			"long_desc": "提供了一個視覺化工具，用於理解和分析生育率隨時間變化的趨勢。",
+			"use_case": "人口政策規劃： 透過生育率時間序列的折線圖，政府和決策者可以了解和評估不同時期生育率的變化趨勢。這有助於制定和調整人口政策，例如制定鼓勵生育政策或調整福利措施，以影響生育率變化。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=9fb2914a-7934-45a2-9a47-99873ea5e4f4"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"158": {
+			"id": 158,
+			"index": "",
+			"map_config": null,
+			"chart_config": {
+				"color": [
+					"#a3c9c7",
+					"#cb7575",
+					"#feee7d"
+				],
+				"types": [
+					"TimelineSeparateChart"
+				],
+				"unit": "人次"
+			},
+			"name": "社會增減數量",
+			"history_data": true,
+			"source": "內政部",
+			"time_from": "2023-05-26T23:29:00+08:00",
+			"time_to": null,
+			"update_freq": 0,
+			"update_freq_unit": "",
+			"short_desc": "顯示每年的社宅數量",
+			"long_desc": "顯示每年社宅總共有多少棟，時間已預計完工時間為主。",
+			"use_case": "",
+			"links": [
+				"https://pip.moi.gov.tw/V3/B/SCRB0505.aspx"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"159": {
+			"id": 159,
+			"index": "child",
+			"map_config": null,
+			"history_data": true,
+			"chart_config": {
+				"categories": [
+					"2018",
+					"2019",
+					"2020",
+					"2021",
+					"2022",
+					"2023",
+					"2024",
+					"2025",
+					"2026"
+				],
+				"types": [
+					"ColumnChart",
+					"RadarChart"
+				],
+				"color": [
+					"#ff7473",
+					"#ffc952",
+					"#47b8e0",
+					"#9C2A4B"
 				],
 				"unit": "間",
 				"map_filter": [
-					"dist",
+					"sliced_address",
 					[
-						"北投區",
-						"士林區",
-						"內湖區",
-						"南港區",
-						"松山區",
-						"信義區",
-						"中山區",
-						"大同區",
-						"中正區",
-						"萬華區",
-						"大安區",
-						"文山區"
+						"2018",
+						"2019",
+						"2020",
+						"2021",
+						"2022",
+						"2023",
+						"2024",
+						"2025",
+						"2026"
 					]
 				]
 			},
-			"name": "公費人類乳突病毒疫苗接種特約醫療院所",
-			"source": "衛生局",
+			"name": "社宅數量",
+			"source": "內政部",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 10,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示當前全市道路施工的數量統計",
+			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
+			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"160": {
+			"id": 160,
+			"index": "",
+			"map_config": null,
+			"chart_config": {
+				"types": [
+					"TaoyuanChart",
+					"ColumnChart"
+				],
+				"color": [
+					"#fce700"
+				],
+				"unit": "人數",
+				"map_filter": [
+					"dist",
+					[
+						"復興區",
+						"大溪區",
+						"觀音區",
+						"楊梅區",
+						"大園區",
+						"新屋區",
+						"龍潭區",
+						"蘆竹區",
+						"龜山區",
+						"八德區",
+						"桃園區",
+						"中壢區",
+						"平鎮區"
+					]
+				]
+			},
+			"name": "112年移入人口",
+			"source": "內政部",
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示全市公費人類乳突病毒疫苗接種特約醫療院所在各區的間數",
-			"long_desc": "顯示全市公費人類乳突病毒疫苗接種特約醫療院所在各區的間數，資料來源為台北市衛生局，不定期更新。",
-			"use_case": "醫療資源配置： 地圖可以展示特約醫療院所的空間分佈，有助於了解不同地區的醫療資源分佈情況。這種了解可以用於規劃和優化醫療服務的分配，確保人們能夠更容易地訪問到公費人類乳突病毒疫苗接種服務。",
+			"short_desc": "顯示桃園各區移入人口數量",
+			"long_desc": "顯示桃園各區社宅數量，資料來源為內政部，不定期更新。",
+			"use_case": "醫療資源配置： ",
 			"links": [
 				"https://data.taipei/dataset/detail?id=4888b142-2ee9-4ab3-896d-9bc1175b99c1"
 			],
 			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"250": {
+			"id": 250,
+			"index": "finish_house",
+			"map_config": [
+				{
+					"index": "finish_house",
+					"paint": {
+						"circle-radius": 8,
+						"circle-color": [
+							"match",
+							[
+								"get",
+								"name"
+							],
+							"八德一號",
+							"#e7c6ff",
+							"中路一號",
+							"#ffcfd2",
+							"中壢一號",
+							"#ff70a6",
+							"平鎮一號",
+							"#ccc5b9",
+							"楊梅一號",
+							"#669bbc",
+							"蘆竹一號",
+							"#9EDBFF",
+							"八德二號",
+							"#e7c6ff",
+							"八德三號",
+							"#e7c6ff",
+							"中路二號",
+							"#ffcfd2",
+							"中路三號",
+							"#ffcfd2",
+							"中路四號",
+							"#ffcfd2",
+							"#9EDBFF"
+						]
+					},
+					"property": [
+						{
+							"key": "progress",
+							"name": "進度"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						},
+						{
+							"key": "households",
+							"name": "戶數"
+						}
+					],
+					"type": "circle",
+					"size": "big",
+					"title": "已開放入住社會住宅"
+				}
+			],
+			"chart_config": {
+				"types": [
+					"TreemapChart",
+					"BarChart"
+				],
+				"color": [
+					"#ff70a6",
+					"#ccc5b9",
+					"#669bbc",
+					"#9EDBFF",
+					"#e7c6ff",
+					"#9EDBFF",
+					"#e7c6ff",
+					"#e7c6ff",
+					"#ffcfd2",
+					"#ffcfd2",
+					"#ffcfd2",
+					"#ffcfd2"
+				],
+				"unit": "戶",
+				"map_filter": [
+					"name",
+					[
+						"中壢一號",
+						"平鎮一號",
+						"楊梅一號",
+						"蘆竹一號",
+						"八德一號",
+						"蘆竹二號",
+						"八德二號",
+						"八德三號",
+						"中路一號",
+						"中路二號",
+						"中路三號",
+						"中路四號"
+					]
+				]
+			},
+			"name": "社會住宅",
+			"source": "桃園市政府住宅發展處",
+			"time_from": "024-01-12T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置",
+			"long_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置，資料來源為桃園市政府住宅發展處開放資料，不定期更新。",
+			"use_case": "桃園市社會住宅點位的戶數和分布位置資料將幫助我們探討社宅在城市中的分佈情況及其相關性。",
+			"links": [
+				"https://ohd.tycg.gov.tw/"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"456": {
+			"id": 456,
+			"index": "hospitals",
+			"map_config": [
+				{
+					"index": "hos",
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "symbol",
+					"icon": "hos",
+					"title": "醫療機構"
+				}
+			],
+			"name": "醫療院所分布",
+			"chart_config": {
+				"types": [
+					"MapLegend"
+				],
+				"map_filter": [
+					"type",
+					[
+						"醫院",
+						"衛生所"
+					]
+				]
+			},
+			"chart_data": [
+				{
+					"type": "symbol",
+					"name": "醫院",
+					"color": "#86e9f6",
+					"value": null,
+					"icon": "hos"
+				}
+			],
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"source": "衛生局",
 			"contributors": [
 				"tuic"
 			]
@@ -5368,7 +6002,6 @@
 							"招標中",
 							"#3b28cc",
 							"#3b28cc"
-							
 						]
 					},
 					"property": [
@@ -5433,158 +6066,93 @@
 			"contributors": [
 				"tuic"
 			]
-		},"250": {
-			"id": 250,
-			"index": "finish_house",
+		},
+		"162": {
+			"id": 162,
+			"index": "youbike_availability",
 			"map_config": [
 				{
-					"index": "finish_house",
-					"paint": {
-						"circle-radius": 8,
-						"circle-color": [
-							"match",
-							["get", "name"],
-							"八德一號",
-							"#e7c6ff",
-							"中路一號",
-							"#ffcfd2",
-							"中壢一號",
-							"#ff70a6",
-							"平鎮一號",
-							"#ccc5b9",
-							"楊梅一號",
-							"#669bbc",
-							"蘆竹一號",
-							"#9EDBFF",
-							"八德二號",
-							"#e7c6ff",
-							"八德三號",
-							"#e7c6ff",
-							"中路二號",
-							"#ffcfd2",
-							"中路三號",
-							"#ffcfd2",
-							"中路四號",
-							"#ffcfd2",
-							
-							"#9EDBFF"
-						]
-					},
-					"property": [{
-						"key": "progress",
-						"name": "進度"
-					},
-					{
-						"key": "name",
-						"name": "名稱"
-					},
-					{
-						"key": "address",
-						"name": "地址"
-					},
-					{
-						"key": "households",
-						"name": "戶數"
-					}],
-					"type": "circle",
-					"size": "big",
-					"title": "已開放入住社會住宅"
+					"index": "elementary",
+					"paint": {},
+					"property": [
+						{
+							"key": "station",
+							"name": "國小名稱"
+						},
+						{
+							"key": "total_child",
+							"name": "國小總人數"
+						},
+						{
+							"key": "class-avg",
+							"name": "每班平均人數"
+						}
+					],
+					"icon": "element",
+					"type": "symbol",
+					"title": "國小概況"
 				}
 			],
 			"chart_config": {
-				"types": ["TreemapChart", "BarChart"],
-				"color": [
-					"#ff70a6",
-					"#ccc5b9",							
-					"#669bbc",																			
-					"#9EDBFF",
-					"#e7c6ff",						
-					"#9EDBFF",							
-					"#e7c6ff",							
-					"#e7c6ff",							
-					"#ffcfd2",							
-					"#ffcfd2",							
-					"#ffcfd2",							
-					"#ffcfd2"
+				"categories": [
+					"桃園區",
+					"平鎮區",
+					"大溪區",
+					"楊梅區",
+					"蘆竹區",
+					"新屋區",
+					"龜山區",
+					"八德區",
+					"龍潭區",
+					"大園區",
+					"觀音區",
+					"復興區",
+					"中壢區"
 				],
-				"unit": "戶",
+				"types": [
+					"ColumnChart",
+					"GuageChart",
+					"BarPercentChart"
+				],
+				"color": [
+					"#00DB00",
+					"#FFD306",
+					"#EA0000"
+				],
+				"unit": "間",
 				"map_filter": [
-					"name",
+					"dist",
 					[
-						"中壢一號",
-						"平鎮一號",
-						"楊梅一號",
-						"蘆竹一號",
-						"八德一號",					
-						"蘆竹二號",						 
-						"八德二號", 
-						"八德三號", 
-						"中路一號", 
-						"中路二號",
-						"中路三號",
-						"中路四號"
+						"桃園區",
+						"平鎮區",
+						"大溪區",
+						"楊梅區",
+						"蘆竹區",
+						"新屋區",
+						"龜山區",
+						"八德區",
+						"龍潭區",
+						"大園區",
+						"觀音區",
+						"復興區",
+						"中壢區"
 					]
 				]
 			},
-
-			"name": "社會住宅",
-			"source": "桃園市政府住宅發展處",
-			"time_from": "024-01-12T00:00:00+08:00",
+			"source": "教育局",
+			"name": "國小分布",
+			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
-			"update_freq": null,
-			"update_freq_unit": null,
-			"short_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置",
-			"long_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置，資料來源為桃園市政府住宅發展處開放資料，不定期更新。",
-			"use_case": "桃園市社會住宅點位的戶數和分布位置資料將幫助我們探討社宅在城市中的分佈情況及其相關性。",
-			"links": ["https://ohd.tycg.gov.tw/"],
+			"short_desc": "顯示當前全市國小分布",
+			"long_desc": "顯示當前全市國小分布，也顯示國小總人數及班級平均人數。資料來源為教育局公開資料。",
+			"use_case": "藉由當前全市國小分布，也顯示國小總人數及班級平均人數，可掌握全市目前國小分布以及大約人數，並可在地圖模式查詢各國小位置及人數資訊。",
+			"links": [
+				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
+			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": [
+				"tuic"
+			]
 		}
-	},
-	"456": {
-                        "id": 456,
-                        "index": "hospitals",
-                        "map_config": [
-                                {
-                                        "index": "hos",
-                                        "property": [                                           
-                                                {
-                                                        "key": "name",
-                                                        "name": "名稱"
-                                                },
-                                                {
-                                                        "key": "addr",
-                                                        "name": "地址"
-                                                }
-                                        ],
-                                        "type": "symbol",
-										"icon": "hos",
-                                        "title": "醫療機構"
-                                }
-                        ],
-                        "name": "醫療院所分布",
-                        "chart_config": {
-                                "types": ["MapLegend"],
-                                "map_filter": ["type", ["醫院", "衛生所"]]
-                        },
-                        "chart_data": [
-                                {
-                                        "type": "symbol",
-                                        "name": "醫院",
-                                        "color": "#86e9f6",
-                                        "value": null,
-										"icon": "hos"
-                                }
-                        
-                        ],			
-						"time_from": null,
-						"time_to": null,
-						"update_freq": null,
-						"update_freq_unit": null,
-			
-                        "source": "衛生局",
-                        "contributors": ["tuic"]
-                }
-        
-        
+	}
 }
