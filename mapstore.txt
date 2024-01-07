@@ -8,7 +8,8 @@ addSymbolSources() {
 				"bike_red",
 				"ered",
 				"eyellow",
-				"egreen"
+				"egreen",
+				"hos"
 			];
 			images.forEach((element) => {
 				this.map.loadImage(
