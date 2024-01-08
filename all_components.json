@@ -6020,6 +6020,14 @@
 						{
 							"key": "households",
 							"name": "戶數"
+						},
+						{
+							"key": "opendate",
+							"name": "預計起租日"
+						},
+						{
+							"key": "finishdate",
+							"name": "預計完工日"
 						}
 					],
 					"type": "circle",
