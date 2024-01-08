@@ -6067,9 +6067,10 @@
 				"tuic"
 			]
 		},
+			,
 		"162": {
 			"id": 162,
-			"index": "youbike_availability",
+			"index": "elementary",
 			"map_config": [
 				{
 					"index": "elementary",
@@ -6088,54 +6089,56 @@
 							"name": "每班平均人數"
 						}
 					],
-					"icon": "element",
+					"icon": "youbike",
 					"type": "symbol",
 					"title": "國小概況"
 				}
 			],
 			"chart_config": {
 				"categories": [
-					"桃園區",
-					"平鎮區",
-					"大溪區",
-					"楊梅區",
-					"蘆竹區",
-					"新屋區",
-					"龜山區",
+					
 					"八德區",
-					"龍潭區",
 					"大園區",
-					"觀音區",
+					"大溪區",
+					"中壢區",
+					"平鎮區",
+					"桃園區",
 					"復興區",
-					"中壢區"
+					"新屋區",
+					"楊梅區",
+					"龍潭區",
+					"龜山區",
+					"蘆竹區",
+					"觀音區"
 				],
 				"types": [
 					"ColumnChart",
-					"GuageChart",
 					"BarPercentChart"
 				],
 				"color": [
-					"#00DB00",
 					"#FFD306",
-					"#EA0000"
+					"#00DB00",
+					"#EA0000",
+					"#B15BFF"
 				],
 				"unit": "間",
 				"map_filter": [
 					"dist",
 					[
-						"桃園區",
-						"平鎮區",
-						"大溪區",
-						"楊梅區",
-						"蘆竹區",
-						"新屋區",
-						"龜山區",
+					
 						"八德區",
-						"龍潭區",
 						"大園區",
-						"觀音區",
+						"大溪區",
+						"中壢區",
+						"平鎮區",
+						"桃園區",
 						"復興區",
-						"中壢區"
+						"新屋區",
+						"楊梅區",
+						"龍潭區",
+						"龜山區",
+						"蘆竹區",
+						"觀音區"
 					]
 				]
 			},
@@ -6154,5 +6157,309 @@
 				"tuic"
 			]
 		}
+		
+	,
+		"1120": {
+			"id": 1120,
+			"index": "112pre",
+			"map_config": [
+				{
+					"index": "112pre",
+					"paint": {},
+					"property": [
+						{
+							"key": "station",
+							"name": "國小名稱"
+						},
+						
+						{
+							"key": "total_child",
+							"name": "國小總人數"
+						},
+						{
+							"key": "class-avg",
+							"name": "每班平均人數"
+						}
+					],
+					"icon": "youbike",
+					"type": "symbol",
+					"title": "國小概況"
+				}
+			],
+		
+		
+		
+			"chart_config": {
+				"categories": [
+				 "八德區",
+				 "大園區",
+				 "大溪區",
+				 "中壢區",
+				 "平鎮區",
+				 "桃園區",
+				 "復興區",
+				 "新屋區",
+				 "楊梅區",
+				 "龍潭區",
+				 "龜山區",
+				 "蘆竹區",
+				 "觀音區"
+				],
+				"types": [
+					"ColumnChart",
+					"BarPercentChart"
+				   ],
+				   "color": [
+					
+					"#FFD306",
+					"#00DB00",
+					"#EA0000",
+					"#B15BFF"
+					
+					
+				   ],
+				   "unit": "間",
+		
+		
+				   "map_filter": [
+					"dist",
+					[
+						"八德區",
+						"大園區",
+						"大溪區",
+						"中壢區",
+						"平鎮區",
+						"桃園區",
+						"復興區",
+						"新屋區",
+						"楊梅區",
+						"龍潭區",
+						"龜山區",
+						"蘆竹區",
+						"觀音區"
+					]
+			]
+		
+		
+				
+				
+			},
+			"source": "教育局",
+			"name": "預測112國小",
+			
+			
+			"short_desc": "顯示112年全市國小分布",
+			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
+			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
+			"links": [
+				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}
+		
+
+		,
+
+		"1130": {
+			"id": 1130,
+			"index": "113pre",
+			"map_config": [
+				{
+					"index": "113pre",
+					"paint": {},
+					"property": [
+						{
+							"key": "station",
+							"name": "國小名稱"
+						},
+						
+						{
+							"key": "total_child",
+							"name": "國小總人數"
+						},
+						{
+							"key": "class-avg",
+							"name": "每班平均人數"
+						}
+					],
+					"icon": "youbike",
+					"type": "symbol",
+					"title": "國小概況"
+				}
+			],
+		
+		
+		
+			"chart_config": {
+				"categories": [
+				 "八德區",
+				 "大園區",
+				 "大溪區",
+				 "中壢區",
+				 "平鎮區",
+				 "桃園區",
+				 "復興區",
+				 "新屋區",
+				 "楊梅區",
+				 "龍潭區",
+				 "龜山區",
+				 "蘆竹區",
+				 "觀音區"
+				],
+				"types": [
+					"ColumnChart",
+					"BarPercentChart"
+				   ],
+				   "color": [
+					
+					"#FFD306",
+					"#00DB00",
+					"#EA0000",
+					"#B15BFF"
+					
+					
+				   ],
+				   "unit": "間",
+		
+		
+				   "map_filter": [
+					"dist",
+					[
+						"八德區",
+						"大園區",
+						"大溪區",
+						"中壢區",
+						"平鎮區",
+						"桃園區",
+						"復興區",
+						"新屋區",
+						"楊梅區",
+						"龍潭區",
+						"龜山區",
+						"蘆竹區",
+						"觀音區"
+					]
+			]
+		
+		
+				
+				
+			},
+			"source": "教育局",
+			"name": "預測113國小",
+			
+			
+			"short_desc": "顯示113年全市國小分布",
+			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
+			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
+			"links": [
+				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}
+		,
+
+		"1140": {
+			"id": 1140,
+			"index": "114pre",
+			"map_config": [
+				{
+					"index": "114pre",
+					"paint": {},
+					"property": [
+						{
+							"key": "station",
+							"name": "國小名稱"
+						},
+						
+						{
+							"key": "total_child",
+							"name": "國小總人數"
+						},
+						{
+							"key": "class-avg",
+							"name": "每班平均人數"
+						}
+					],
+					"icon": "youbike",
+					"type": "symbol",
+					"title": "國小概況"
+				}
+			],
+		
+		
+		
+			"chart_config": {
+				"categories": [
+				 "八德區",
+				 "大園區",
+				 "大溪區",
+				 "中壢區",
+				 "平鎮區",
+				 "桃園區",
+				 "復興區",
+				 "新屋區",
+				 "楊梅區",
+				 "龍潭區",
+				 "龜山區",
+				 "蘆竹區",
+				 "觀音區"
+				],
+				"types": [
+					"ColumnChart",
+					"BarPercentChart"
+				   ],
+				   "color": [
+					
+					"#FFD306",
+					"#00DB00",
+					"#EA0000",
+					"#B15BFF"
+					
+					
+				   ],
+				   "unit": "間",
+		
+		
+				   "map_filter": [
+					"dist",
+					[
+						"八德區",
+						"大園區",
+						"大溪區",
+						"中壢區",
+						"平鎮區",
+						"桃園區",
+						"復興區",
+						"新屋區",
+						"楊梅區",
+						"龍潭區",
+						"龜山區",
+						"蘆竹區",
+						"觀音區"
+					]
+			]
+		
+		
+				
+				
+			},
+			"source": "教育局",
+			"name": "預測114國小",
+			
+			
+			"short_desc": "顯示114年全市國小分布",
+			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
+			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
+			"links": [
+				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}
+		
+		
 	}
 }
