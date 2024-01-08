@@ -9,7 +9,9 @@
 		  "address": "桃園區力行路298號及296號",
 		  "households": "212",
 		  "floors": "",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"108/10",
+		  "finishdate":"108/06"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -23,7 +25,9 @@
 		  "address": "八德區建德路103號",
 		  "households": "418",
 		  "floors": "",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"109/11",
+		  "finishdate":"109/07"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -36,7 +40,9 @@
 		  "name": "八德二號社會住宅",
 		  "address": "八德區豐田二路15號、25號",
 		  "households": "354",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"110/05",
+		  "finishdate":"109/12"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -49,7 +55,9 @@
 		  "name": "中路一號社會住宅",
 		  "address": "桃園市桃園區崇法街8、10號",
 		  "households": "169",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"110/10",
+		  "finishdate":"110/07"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -62,7 +70,9 @@
 		  "name": "蘆竹二號社會住宅",
 		  "address": "蘆竹區大新路36號、56號、66號、76號",
 		  "households": "416",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"111/06",
+		  "finishdate":"111/01"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -75,7 +85,9 @@
 		  "name": "八德三號社會住宅",
 		  "address": "334桃園市八德區豐德路460號",
 		  "households": "524",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"112/09",
+		  "finishdate":"112/02"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -88,7 +100,9 @@
 		  "name": "中路三號社會住宅",
 		  "address": "330桃園市桃園區崇法街81-83-85號",
 		  "households": "417",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"111/11",
+		  "finishdate":"111/06"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -101,7 +115,9 @@
 		  "name": "蘆竹一號社會住宅",
 		  "address": "338桃園市蘆竹區大新三街173號",
 		  "households": "114",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"112/07",
+		  "finishdate":"111/10"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -114,7 +130,9 @@
 		  "name": "中路四號社會住宅",
 		  "address": "330桃園市桃園區崇法街56-68號",
 		  "households": "350",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"112/03",
+		  "finishdate":"111/09"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -127,7 +145,9 @@
 		  "name": "中壢一號社會住宅",
 		  "address": "320桃園市中壢區中山東路四段30號",
 		  "households": "957",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"111/11",
+		  "finishdate":"111/08"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -140,7 +160,9 @@
 		  "name": "平鎮一號社會住宅",
 		  "address": "324桃園市平鎮區漢口街82巷6號",
 		  "households": "64",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"112/08",
+		  "finishdate":"112/03"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -153,7 +175,9 @@
 		  "name": "楊梅一號社會住宅(一期)",
 		  "address": "326桃園市楊梅區中興路236號",
 		  "households": "216",
-		  "progress": "已完工"
+		  "progress": "已完工",
+		  "opendate":"113/04",
+		  "finishdate":"112/09"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -166,7 +190,8 @@
 		  "name": "中壢區前寮段(中央)",
 		  "address": "中壢區龍岡路三段及龍門街交叉口(現龍門營區)",
 		  "households": "140",
-		  "progress": "施工中"
+		  "progress": "施工中",
+		  "finishdate":"112"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -179,7 +204,9 @@
 		  "name": "中壢老小段100地號(都更)",
 		  "address": "中壢區中榮路與康樂路口",
 		  "households": "94",
-		  "progress": "施工中"
+		  "progress": "施工中", 
+		  "opendate":"114/01",
+		  "finishdate":"113/01"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -192,7 +219,9 @@
 		  "name": "東門段208-1地號(都更)",
 		  "address": "桃園區成功路二段與朝陽街一段交叉口",
 		  "households": "84",
-		  "progress": "施工中"
+		  "progress": "施工中", 
+		  "opendate":"114/01",
+		  "finishdate":"113/01"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -205,7 +234,8 @@
 		  "name": "桃園區慈文段(中央)",
 		  "address": "桃園區慈文街及慈文路322巷6弄交叉口",
 		  "households": "237",
-		  "progress": "施工中"
+		  "progress": "施工中",
+		  "finishdate":"114/01"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -218,7 +248,8 @@
 		  "name": "中正段1209地號(都更)",
 		  "address": "桃園區正光路與正光路71巷交叉口",
 		  "households": "255",
-		  "progress": "施工中"
+		  "progress": "施工中",
+		  "finishdate":"115/10"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -231,7 +262,8 @@
 		  "name": "蘆竹區大興段",
 		  "address": "338桃園市蘆竹區338",
 		  "households": "64",
-		  "progress": "招標中"
+		  "progress": "招標中",
+		  "finishdate":"116/07"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -244,7 +276,8 @@
 		  "name": "捷運A10站",
 		  "address": "蘆竹區山鼻之望公園旁",
 		  "households": "350",
-		  "progress": "招標中"
+		  "progress": "招標中",
+		  "finishdate":"116/07"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -257,7 +290,8 @@
 		  "name": "龜山區興安段",
 		  "address": "龜山區幸福國民小學旁",
 		  "households": "100",
-		  "progress": "招標中"
+		  "progress": "招標中",
+		  "finishdate":"116/10"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -270,7 +304,8 @@
 		  "name": "龜山區善捷段",
 		  "address": "龜山區文青路與文青六路圍繞處",
 		  "households": "280",
-		  "progress": "招標中"
+		  "progress": "招標中",
+		  "finishdate":"116/10"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -283,7 +318,8 @@
 		  "name": "中壢區平寮段(中央)",
 		  "address": "中壢區中山東路四段(慈仁四村對面)",
 		  "households": 249,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"116"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -296,7 +332,8 @@
 		  "name": "楊梅區金龍段1地號(中央)",
 		  "address": "楊梅區中興路及金龍二路交叉口(楊梅一號旁)",
 		  "households": 486,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"116"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -309,7 +346,8 @@
 		  "name": "大溪區太武段(中央)",
 		  "address": "大溪區慈光街及慈光一街交叉口",
 		  "households": 486,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"116"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -322,7 +360,8 @@
 		  "name": "北富台新村",
 		  "address": "中壢區中正東路三段331巷及仁德1巷4弄交叉口(中華電信營運處對面)",
 		  "households": 210,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"117"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -335,7 +374,8 @@
 		  "name": "捷運A20站",
 		  "address": "中壢區興東路旁",
 		  "households":400,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"117"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -348,7 +388,8 @@
 		  "name": "龜山區樂捷段(樂善安居)(中央)",
 		  "address": "龜山區南林路(靠近文桃路交叉口)",
 		  "households": 790,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"117"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -361,7 +402,8 @@
 		  "name": "平鎮區湧星段(中央)",
 		  "address": "平鎮區湧光路及湧興路交叉口",
 		  "households": 293,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"117"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -374,7 +416,8 @@
 		  "name": "中壢區振興段(中央)",
 		  "address": "中壢區龍岡路三段及福龍街交叉口",
 		  "households": 500,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"117"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -387,7 +430,8 @@
 		  "name": "龍潭區龍華段(中央)",
 		  "address": "龍潭區金龍路8巷21弄(龍潭老人會館對面)",
 		  "households": 140,
-		  "progress": "規劃中"
+		  "progress": "規劃中",
+		  "finishdate":"119"
 		},
 		"geometry": {
 		  "type": "Point",
@@ -401,6 +445,7 @@
 		  "address": "桃園市桃園區日光路",
 		  "households": 0,
 		  "progress": "規劃中"
+		  
 		},
 		"geometry": {
 		  "type": "Point",
