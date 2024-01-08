@@ -1,0 +1,14 @@
+{
+	"data": [
+	  {
+	 "name": "parent_child_center",
+	 "data": [1,1,1,1,1,2,1,1,1,1,1,1]
+	  },
+	
+   
+	 {
+	   "name": "postpartum_care_facility",
+	   "data": [2,1,1,1,0,0,1,0,0,1,2,2]
+	 }
+	  ]
+	 }
