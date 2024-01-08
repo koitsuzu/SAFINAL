@@ -400,11 +400,10 @@ export const maplayerCommonLayout = {
 		},"symbol-element": {
 			"icon-image": [
 				"case",
-				[">=", ["get", "class-avg"], 29],
-				"ered",
-				["<", ["get", "class-avg"], 25],
-				"egreen",
-				"eyellow"
+			[">=", ["get", "class-avg"], 32], "epurple",
+			[">=", ["get", "class-avg"], 29], "ered",
+			["<", ["get", "class-avg"], 10], "eyellow",
+			"egreen"
 			],
 			"icon-size": [
 				"interpolate",
