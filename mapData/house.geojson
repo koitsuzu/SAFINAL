@@ -1,0 +1,740 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+	{
+		"type": "Feature",
+		"properties": {
+		  "name": "中路二號社會住宅",
+		  "address": "桃園區力行路298號及296號",
+		  "households": "212",
+		  "floors": "",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2970877, 24.9995959]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德一號社會住宅",
+		  "address": "八德區建德路103號",
+		  "households": "418",
+		  "floors": "",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2804449, 24.9266141]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德二號社會住宅",
+		  "address": "八德區豐田二路15號、25號",
+		  "households": "354",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2890785, 24.9274142]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中路一號社會住宅",
+		  "address": "桃園市桃園區崇法街8、10號",
+		  "households": "169",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2876891, 25.0080314]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "蘆竹二號社會住宅",
+		  "address": "蘆竹區大新路36號、56號、66號、76號",
+		  "households": "416",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2561592, 25.0249973]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德三號社會住宅",
+		  "address": "334桃園市八德區豐德路460號",
+		  "households": "524",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2839294, 24.925206]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中路三號社會住宅",
+		  "address": "330桃園市桃園區崇法街81-83-85號",
+		  "households": "417",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2859188, 25.0073411]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "蘆竹一號社會住宅",
+		  "address": "338桃園市蘆竹區大新三街173號",
+		  "households": "114",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2559749, 25.0215945]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中路四號社會住宅",
+		  "address": "330桃園市桃園區崇法街56-68號",
+		  "households": "350",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2873841, 25.0078]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢一號社會住宅",
+		  "address": "320桃園市中壢區中山東路四段30號",
+		  "households": "957",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2549857, 24.9353267]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "平鎮一號社會住宅",
+		  "address": "324桃園市平鎮區漢口街82巷6號",
+		  "households": "64",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2071087, 24.910226]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "楊梅一號社會住宅(一期)",
+		  "address": "326桃園市楊梅區中興路236號",
+		  "households": "216",
+		  "progress": "已完工"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.1863175, 24.9143812]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區前寮段(中央)",
+		  "address": "中壢區龍岡路三段及龍門街交叉口(現龍門營區)",
+		  "households": "140",
+		  "progress": "施工中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.241971, 24.928519]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢老小段100地號(都更)",
+		  "address": "中壢區中榮路與康樂路口",
+		  "households": "94",
+		  "progress": "施工中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.220246, 24.954514]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "東門段208-1地號(都更)",
+		  "address": "桃園區成功路二段與朝陽街一段交叉口",
+		  "households": "84",
+		  "progress": "施工中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.314077, 24.993326]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "桃園區慈文段(中央)",
+		  "address": "桃園區慈文街及慈文路322巷6弄交叉口",
+		  "households": "237",
+		  "progress": "施工中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.300186, 25.005568]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中正段1209地號(都更)",
+		  "address": "桃園區正光路與正光路71巷交叉口",
+		  "households": "255",
+		  "progress": "施工中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.294999, 24.992932]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "蘆竹區大興段",
+		  "address": "338桃園市蘆竹區338",
+		  "households": "64",
+		  "progress": "招標中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2969674, 25.0784359]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "捷運A10站",
+		  "address": "蘆竹區山鼻之望公園旁",
+		  "households": "350",
+		  "progress": "招標中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.291161, 25.079318]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龜山區興安段",
+		  "address": "龜山區幸福國民小學旁",
+		  "households": "100",
+		  "progress": "招標中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.330874, 24.988717]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龜山區善捷段",
+		  "address": "龜山區文青路與文青六路圍繞處",
+		  "households": "280",
+		  "progress": "招標中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.393003, 25.038941]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區平寮段(中央)",
+		  "address": "中壢區中山東路四段(慈仁四村對面)",
+		  "households": 249,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.25791, 24.935155]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "楊梅區金龍段1地號(中央)",
+		  "address": "楊梅區中興路及金龍二路交叉口(楊梅一號旁)",
+		  "households": 486,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.185621, 24.915467]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "大溪區太武段(中央)",
+		  "address": "大溪區慈光街及慈光一街交叉口",
+		  "households": 486,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.281761, 24.902542]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "北富台新村",
+		  "address": "中壢區中正東路三段331巷及仁德1巷4弄交叉口(中華電信營運處對面)",
+		  "households": 210,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.252857, 24.939086]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "捷運A20站",
+		  "address": "中壢區興東路旁",
+		  "households":400,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.219588, 24.982486]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龜山區樂捷段(樂善安居)(中央)",
+		  "address": "龜山區南林路(靠近文桃路交叉口)",
+		  "households": 790,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.397094, 25.045392]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "平鎮區湧星段(中央)",
+		  "address": "平鎮區湧光路及湧興路交叉口",
+		  "households": 293,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.208292, 24.89625]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區振興段(中央)",
+		  "address": "中壢區龍岡路三段及福龍街交叉口",
+		  "households": 500,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.234923, 24.93481]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龍潭區龍華段(中央)",
+		  "address": "龍潭區金龍路8巷21弄(龍潭老人會館對面)",
+		  "households": 140,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.211798, 24.861229]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "桃園區三民段(日光好室)(中央)",
+		  "address": "桃園市桃園區日光路",
+		  "households": 0,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.309198, 25.007275]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區雙嶺段(中央)",
+		  "address": "中壢區高鐵南路五段及松勇路之交叉口",
+		  "households": 204,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.163683, 24.962379]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "觀音區大觀段(農水署)",
+		  "address": "桃園市觀音區大觀段",
+		  "households": 0,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.1016971, 25.0352514]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龜山區公西段(長庚自辦市地重劃區)(中央)",
+		  "address": "桃園市龜山區公西段",
+		  "households": 350,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.362502, 25.062917]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德區瑞祥段(中央)",
+		  "address": "八德區永忠街(國防大學旁)",
+		  "households": 270,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.300985, 24.932392]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "楊梅區金龍段5、13地號(中央)",
+		  "address": "楊梅區金龍一路及金龍三路交叉口(埔心公園旁)",
+		  "households": 530,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.185433, 24.913303]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "蘆竹區宏華段767等地號(中央)",
+		  "address": "蘆竹區大華街(大華國小旁)",
+		  "households": 822,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.254211, 25.03835]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "台鐵地下化中路站周邊整體開發計畫案",
+		  "address": "桃園市桃園區國際路一段(1-4號埤塘旁)",
+		  "households": 0,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.289695, 24.979027]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "埔頂營區",
+		  "address": "桃園市大溪區仁和路一段(埔頂營區)",
+		  "households": 0,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.278787, 24.897243]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區青溪段",
+		  "address": "桃園市中壢區文昌路216巷(瑞士社區)",
+		  "households": 80,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.207936, 25.003239]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德區茄苳段",
+		  "address": "桃園市八德區永豐路(新興高中斜對面)",
+		  "households": 100,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.272158, 24.975193]
+		}
+	  },
+
+	{
+		"type": "Feature",
+		"properties": {
+		"name": "桃園區桃合段",
+		"address": "桃園市桃園區介壽路二段(國道二號旁)",
+		"households": 260,
+		"progress": "規劃中"
+		},
+		"geometry": {
+		"type": "Point",
+		"coordinates": [121.303243, 24.975876]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+		"name": "桃園區三民段",
+		"address": "桃園市桃園區日光路",
+		"households": 120,
+		"progress": "規劃中"
+		},
+		"geometry": {
+		"type": "Point",
+		"coordinates": [121.309069, 25.007187]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+		"name": "八德區興豐段",
+		"address": "八德區建興街及建興路92巷交叉口",
+		"households": 0,
+		"progress": "規劃中"
+		},
+		"geometry": {
+		"type": "Point",
+		"coordinates": [121.287156, 24.931941]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+		"name": "大園區北園段",
+		"address": "大園區中山北路(靠近中華路交叉口)",
+		"households": 0,
+		"progress": "規劃中"
+		},
+		"geometry": {
+		"type": "Point",
+		"coordinates": [121.19627, 25.066503]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+		  "name": "蘆竹區宏華段937等地號(中央)",
+		  "address": "蘆竹區大華街(大華國小旁)",
+		  "households": 487,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.253866, 25.038585]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "八德區前程段(大勇公辦市地重劃區)(中央)",
+		  "address": "334桃園市八德區25",
+		  "households": 955,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2912463, 24.9469059]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "南富台新村(中央)",
+		  "address": "中壢區中山東路三段(健保署北區業務組旁)",
+		  "households": 280,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.253929, 24.937583]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "大溪區仁武段(農水署)",
+		  "address": "大溪區員林路一段15巷、3巷交叉口(桃園市原住民族文化會館斜對面)",
+		  "households": 44,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.282663, 24.896302]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區雙嶺段(農水署)",
+		  "address": "中壢區松勇路及松勇一街交叉口",
+		  "households": 81,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.164753, 24.962791]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "桃園段武陵小段183地號(都更)",
+		  "address": "桃園區復興路與民生路交叉口",
+		  "households": 75,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.315375, 24.991307]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "龍岡體育園區",
+		  "address": "中壢運動公園區段徵收開發案(R26街廓)",
+		  "households": 640,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.243924, 24.92722]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區內壢段",
+		  "address": "中壢區中園路二段及內定九街交叉口",
+		  "households": 230,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.227713, 25.004146]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "捷運A21站",
+		  "address": "桃園機場捷運A21站地區區段徵收開發案(R2-11街廓)",
+		  "households": 0,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.225482, 24.968269]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "大溪區田心子段",
+		  "address": "大溪區復興路30號",
+		  "households": 40,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2894496, 24.8802556]
+		}
+	  },
+	  {
+		"type": "Feature",
+		"properties": {
+		  "name": "中壢區遠東段",
+		  "address": "320桃園市中壢區320",
+		  "households": 350,
+		  "progress": "規劃中"
+		},
+		"geometry": {
+		  "type": "Point",
+		  "coordinates": [121.2053963, 24.9721514]
+		}
+	  }
+
+	]
+	}
+	
+	

@@ -1,0 +1,522 @@
+{
+	"type": "FeatureCollection",
+	"crs": { "type": "name" },
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區環中東路二段150號",
+				"name": "中壢長榮醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2371019, 24.9495852]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區延平路155號",
+				"name": "天成醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2290242, 24.9626431]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區中北路二段316號",
+				"name": "華揚醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2299504, 24.9531213]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區中美路95號",
+				"name": "中美醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2251161, 24.9586345]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區中美路13號",
+				"name": "仁祥醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2273563, 24.9579209]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區復興路152號",
+				"name": "新國民醫療社團法人新國民醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2233987, 24.9542044]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區民族路二段180號",
+				"name": "祐民醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2036991, 24.9573932]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區延平路643號",
+				"name": "承安醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2219564, 24.9533028]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "324桃園市平鎮區廣泰路77號",
+				"name": "聯新國際醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2052656, 24.9463881]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "324桃園市平鎮區延平路二段56號",
+				"name": "陽明醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2124714, 24.950095]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "324桃園市平鎮區延平路一段81號",
+				"name": "新永和醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2195637, 24.9514685]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "325桃園市龍潭區中興路168號",
+				"name": "國軍桃園總醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1857598, 24.915716]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "325桃園市龍潭區中豐路168號",
+				"name": "龍潭敏盛醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2137879, 24.8751574]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "325桃園市龍潭區文化路6巷35號",
+				"name": "國家中山科學研究院石園診所",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2453942, 24.8496699]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "326桃園市楊梅區中山北路一段356號",
+				"name": "楊梅天成醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1572076, 24.9089106]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "326桃園市楊梅區楊新北路321巷30號",
+				"name": "怡仁綜合醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1555767, 24.9170236]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "337桃園市大園區華中街2號",
+				"name": "大園敏盛醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1959554, 25.0623117]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "337桃園市大園區大觀路910號",
+				"name": "居善醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1656837, 25.0585865]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "333桃園市龜山區萬壽路二段964號",
+				"name": "大明醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3377334, 24.9954212]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "333桃園市龜山區復興街5號",
+				"name": "長庚醫療財團法人林口長庚紀念醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.368323, 25.0626266]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區經國路168號",
+				"name": "敏盛綜合醫院(經國院區)",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3061435, 25.0164076]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區中山路1492號",
+				"name": "衛生福利部桃園醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2691911, 24.9777031]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區建新街123號",
+				"name": "天主教聖保祿醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3122536, 24.9823214]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區三民路三段106號",
+				"name": "敏盛綜合醫院 三民院區",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3054279, 24.9942874]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區三民路二段288號",
+				"name": "振生醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3095098, 24.9997325]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區桃鶯路245號",
+				"name": "德仁醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3186219, 24.984073]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區成功路三段100號",
+				"name": "臺北榮民總醫院 桃園分院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3241788, 25.0043516]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "330桃園市桃園區慈文路959號",
+				"name": "桃園秉坤婦幼醫院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2890024, 25.0005558]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "33065桃園市桃園區復興路195號",
+				"name": "聯新國際醫院桃新分院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3096006, 24.9892552]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "327桃園市新屋區新福二路6號",
+				"name": "衛生福利部桃園醫院新屋分院",
+				"hos": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1070934, 24.9697382]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "334桃園市八德區介壽路2段361巷28號",
+				"name": "桃園市八德區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2985398, 24.9475152]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "324桃園市平鎮區振興路1號",
+				"name": "桃園市平鎮區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2179185, 24.9459175]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "327桃園市新屋區中山路239號",
+				"name": "桃園市新屋區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.106582, 24.972535]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "326桃園市楊梅區校前路409號",
+				"name": "桃園市楊梅區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1497885, 24.8969598]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "328桃園市觀音區觀新路58號",
+				"name": "桃園市觀音區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.0833556, 25.0277076]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "320桃園市中壢區溪洲街296號",
+				"name": "桃園市中壢區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.230063, 24.9623219]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "333桃園市龜山區自強南路103號",
+				"name": "桃園市龜山區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3384148, 24.9914954]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "327桃園市新屋區中山路239號",
+				"name": "桃園市新屋區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.106582, 24.972535]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "337桃園市大園區中正西路19號",
+				"name": "桃園市大園區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.1954442, 25.0634033]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "335桃園市大溪區仁愛路1號",
+				"name": "桃園市大溪區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2854738, 24.8844771]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "336桃園市復興區中正路25號",
+				"name": "桃園市復興區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3509884, 24.8151032]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "338桃園市蘆竹區長安路二段238號",
+				"name": "桃園市蘆竹區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2803374, 25.0630154]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr": "325桃園市龍潭區中正路210號",
+				"name": "桃園市龍潭區衛生所",
+				"hos": "0"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.2167955, 24.8643947]
+			}
+		}
+	]
+}

@@ -1,0 +1,3307 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station": "市立大成國小",
+                "total_child": 2194,
+                "class-avg": 25.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2984424,
+                    24.9584791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119093",
+                "station": "市立大勇國小",
+                "total_child": 2063,
+                "class-avg": 29.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3035374,
+                    24.9676743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119094",
+                "station": "市立八德國小",
+                "total_child": 1888,
+                "class-avg": 30.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2836891,
+                    24.9288711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119095",
+                "station": "市立瑞豐國小",
+                "total_child": 1307,
+                "class-avg": 25.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2986237,
+                    24.9355998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119096",
+                "station": "市立霄裡國小",
+                "total_child": 248,
+                "class-avg": 20.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2643132,
+                    24.9363628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119097",
+                "station": "市立大安國小",
+                "total_child": 484,
+                "class-avg": 23.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3153986,
+                    24.9564618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119098",
+                "station": "市立茄苳國小",
+                "total_child": 696,
+                "class-avg": 23.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.277996,
+                    24.9652453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119099",
+                "station": "市立廣興國小",
+                "total_child": 231,
+                "class-avg": 19.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.283407,
+                    24.9452785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "八德區",
+                "station_id": "TPE500119100",
+                "station": "市立大忠國小",
+                "total_child": 1678,
+                "class-avg": 28.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3009328,
+                    24.9602612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119101",
+                "station": "市立大園國小",
+                "total_child": 1697,
+                "class-avg": 25.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2026707,
+                    25.0590851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119102",
+                "station": "市立圳頭國小",
+                "total_child": 70,
+                "class-avg": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2049938,
+                    25.0723283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119103",
+                "station": "市立內海國小",
+                "total_child": 63,
+                "class-avg": 10.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1907017,
+                    25.0865145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119104",
+                "station": "市立溪海國小",
+                "total_child": 298,
+                "class-avg": 21.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1867706,
+                    25.0468517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119105",
+                "station": "市立潮音國小",
+                "total_child": 452,
+                "class-avg": 25.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1730075,
+                    25.0652601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119107",
+                "station": "市立竹圍國小",
+                "total_child": 135,
+                "class-avg": 15.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.24428,
+                    25.103682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119108",
+                "station": "市立古林國小",
+                "total_child": 634,
+                "class-avg": 23.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2579476,
+                    25.0778919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119109",
+                "station": "市立后厝國小",
+                "total_child": 82,
+                "class-avg": 13.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2147013,
+                    25.0808338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119110",
+                "station": "市立沙崙國小",
+                "total_child": 23,
+                "class-avg": 3.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2225713,
+                    25.1010943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119111",
+                "station": "市立埔心國小",
+                "total_child": 228,
+                "class-avg": 17.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2256348,
+                    25.0490232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119112",
+                "station": "市立五權國小",
+                "total_child": 373,
+                "class-avg": 23.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.230944,
+                    25.0238488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大園區",
+                "station_id": "TPE500119113",
+                "station": "市立陳康國小",
+                "total_child": 35,
+                "class-avg": 5.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.193945,
+                    25.0492632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119114",
+                "station": "市立大溪國小",
+                "total_child": 793,
+                "class-avg": 25.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2868212,
+                    24.884684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119115",
+                "station": "市立美華國小",
+                "total_child": 55,
+                "class-avg": 9.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3049125,
+                    24.8816036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119116",
+                "station": "市立內柵國小",
+                "total_child": 91,
+                "class-avg": 15.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2819906,
+                    24.8560856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119117",
+                "station": "市立福安國小",
+                "total_child": 98,
+                "class-avg": 16.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2881683,
+                    24.8502085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119118",
+                "station": "市立百吉國小",
+                "total_child": 122,
+                "class-avg": 20.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.310688,
+                    24.8234143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119128",
+                "station": "市立瑞祥國小",
+                "total_child": 59,
+                "class-avg": 9.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2525992,
+                    24.8679204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE501119117",
+                "station": "市立中興國小",
+                "total_child": 71,
+                "class-avg": 11.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3100907,
+                    24.9251636
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE501119118",
+                "station": "市立員樹林國小",
+                "total_child": 638,
+                "class-avg": 25.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2661168,
+                    24.8827562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119119",
+                "station": "市立仁善國小",
+                "total_child": 779,
+                "class-avg": 27.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2790832,
+                    24.9088744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119120",
+                "station": "市立僑愛國小",
+                "total_child": 840,
+                "class-avg": 24.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2928398,
+                    24.920377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119121",
+                "station": "市立南興國小",
+                "total_child": 216,
+                "class-avg": 18.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.266731,
+                    24.9031284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119122",
+                "station": "市立永福國小",
+                "total_child": 44,
+                "class-avg": 7.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.31885,
+                    24.894939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119123",
+                "station": "市立田心國小",
+                "total_child": 572,
+                "class-avg": 22.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2922744,
+                    24.8808439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "大溪區",
+                "station_id": "TPE500119124",
+                "station": "市立仁和國小",
+                "total_child": 1090,
+                "class-avg": 30.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2762349,
+                    24.8984048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119125",
+                "station": "私立有得國(中)小",
+                "total_child": 607,
+                "class-avg": 30.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2516826,
+                    24.9803949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119126",
+                "station": "市立青園國小",
+                "total_child": 213,
+                "class-avg": 30.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2060469,
+                    25.0111825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119127",
+                "station": "市立中壢國小",
+                "total_child": 512,
+                "class-avg": 21.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2218855,
+                    24.954011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119129",
+                "station": "市立中平國小",
+                "total_child": 1477,
+                "class-avg": 27.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1770084,
+                    24.9598294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119130",
+                "station": "市立新明國小",
+                "total_child": 1431,
+                "class-avg": 25.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2157285,
+                    24.9592442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119131",
+                "station": "市立芭里國小",
+                "total_child": 299,
+                "class-avg": 24.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2020086,
+                    24.9949648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119132",
+                "station": "市立新街國小",
+                "total_child": 1638,
+                "class-avg": 26.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2284592,
+                    24.9626549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119133",
+                "station": "市立信義國小",
+                "total_child": 1589,
+                "class-avg": 26.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.231741,
+                    24.9506491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119134",
+                "station": "市立普仁國小",
+                "total_child": 1302,
+                "class-avg": 26.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2444175,
+                    24.948356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119136",
+                "station": "市立富台國小",
+                "total_child": 1137,
+                "class-avg": 26.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2522457,
+                    24.940085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119137",
+                "station": "市立青埔國小",
+                "total_child": 1589,
+                "class-avg": 29.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2151918,
+                    25.0077282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119138",
+                "station": "市立內壢國小",
+                "total_child": 1532,
+                "class-avg": 26.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.259046,
+                    24.9738574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119139",
+                "station": "市立大崙國小",
+                "total_child": 845,
+                "class-avg": 26.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1807791,
+                    24.9918268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119140",
+                "station": "市立山東國小",
+                "total_child": 120,
+                "class-avg": 20.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1736563,
+                    25.0158062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119141",
+                "station": "市立中正國小",
+                "total_child": 1017,
+                "class-avg": 25.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2622035,
+                    24.9621815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119142",
+                "station": "市立自立國小",
+                "total_child": 737,
+                "class-avg": 24.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2511574,
+                    24.9682507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119143",
+                "station": "市立龍岡國小",
+                "total_child": 562,
+                "class-avg": 24.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2299396,
+                    24.9420679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119144",
+                "station": "市立內定國小",
+                "total_child": 476,
+                "class-avg": 23.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2501512,
+                    24.9934085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119145",
+                "station": "市立興國國小",
+                "total_child": 1121,
+                "class-avg": 26.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2213024,
+                    24.9635147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119146",
+                "station": "市立華勛國小",
+                "total_child": 1344,
+                "class-avg": 25.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2572816,
+                    24.953897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119147",
+                "station": "市立林森國小",
+                "total_child": 1840,
+                "class-avg": 29.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2269541,
+                    24.9457979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119149",
+                "station": "市立忠福國小",
+                "total_child": 541,
+                "class-avg": 22.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2346268,
+                    24.9763656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119150",
+                "station": "市立興仁國小",
+                "total_child": 1175,
+                "class-avg": 28.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2623187,
+                    24.9677777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119151",
+                "station": "市立中原國小",
+                "total_child": 1402,
+                "class-avg": 26.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2381452,
+                    24.9562574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "中壢區",
+                "station_id": "TPE500119152",
+                "station": "市立元生國小",
+                "total_child": 1881,
+                "class-avg": 28.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2511461,
+                    24.9745384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119153",
+                "station": "市立南勢國小",
+                "total_child": 1851,
+                "class-avg": 29.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2106409,
+                    24.913476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119154",
+                "station": "市立宋屋國小",
+                "total_child": 543,
+                "class-avg": 22.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2062238,
+                    24.9418142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119155",
+                "station": "市立新勢國小",
+                "total_child": 1040,
+                "class-avg": 24.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2167543,
+                    24.9504743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119156",
+                "station": "市立忠貞國小",
+                "total_child": 1849,
+                "class-avg": 26.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2501012,
+                    24.9227807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119157",
+                "station": "市立東勢國小",
+                "total_child": 371,
+                "class-avg": 20.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2319425,
+                    24.9115131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119158",
+                "station": "市立山豐國小",
+                "total_child": 915,
+                "class-avg": 25.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2130612,
+                    24.8964401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119159",
+                "station": "市立復旦國小",
+                "total_child": 799,
+                "class-avg": 24.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2076887,
+                    24.9547402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119160",
+                "station": "市立北勢國小",
+                "total_child": 1172,
+                "class-avg": 26.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2238439,
+                    24.9358499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119161",
+                "station": "市立東安國小",
+                "total_child": 844,
+                "class-avg": 24.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.250224,
+                    24.917755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119162",
+                "station": "市立祥安國小",
+                "total_child": 932,
+                "class-avg": 24.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2032001,
+                    24.8939919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119163",
+                "station": "市立文化國小",
+                "total_child": 1825,
+                "class-avg": 30.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2033332,
+                    24.9531576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119164",
+                "station": "市立平興國小",
+                "total_child": 1011,
+                "class-avg": 25.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2036017,
+                    24.9444712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119165",
+                "station": "市立義興國小",
+                "total_child": 1121,
+                "class-avg": 28.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2096445,
+                    24.9492475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "平鎮區",
+                "station_id": "TPE500119166",
+                "station": "市立新榮國小",
+                "total_child": 428,
+                "class-avg": 23.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2183449,
+                    24.9528832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119168",
+                "station": "桃園市新興高中附設國小",
+                "total_child": 920,
+                "class-avg": 38.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2848523,
+                    25.0159046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119169",
+                "station": "私立康萊爾國(中)小",
+                "total_child": 675,
+                "class-avg": 32.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2968892,
+                    24.9997496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119170",
+                "station": "市立桃園國小",
+                "total_child": 813,
+                "class-avg": 25.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.310755,
+                    24.9920468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119171",
+                "station": "市立東門國小",
+                "total_child": 563,
+                "class-avg": 22.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3152904,
+                    24.9944936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119172",
+                "station": "市立中埔國小",
+                "total_child": 299,
+                "class-avg": 19.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2871438,
+                    25.0092683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119173",
+                "station": "市立成功國小",
+                "total_child": 1008,
+                "class-avg": 25.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3070423,
+                    24.9983538
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119175",
+                "station": "市立會稽國小",
+                "total_child": 850,
+                "class-avg": 23.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3086452,
+                    25.0197245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119176",
+                "station": "市立建國國小",
+                "total_child": 2024,
+                "class-avg": 26.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3152425,
+                    24.9835199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119177",
+                "station": "市立中山國小",
+                "total_child": 2970,
+                "class-avg": 27.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2896827,
+                    24.9862844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119178",
+                "station": "市立文山國小",
+                "total_child": 1104,
+                "class-avg": 26.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2921409,
+                    24.9961482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119179",
+                "station": "市立南門國小",
+                "total_child": 630,
+                "class-avg": 22.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3055056,
+                    24.9891301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119180",
+                "station": "市立西門國小",
+                "total_child": 1284,
+                "class-avg": 26.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3043617,
+                    24.9953096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119182",
+                "station": "市立龍山國小",
+                "total_child": 1110,
+                "class-avg": 25.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.270762,
+                    24.9808929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119183",
+                "station": "市立北門國小",
+                "total_child": 733,
+                "class-avg": 25.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3071438,
+                    25.0074277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119184",
+                "station": "市立青溪國小",
+                "total_child": 1411,
+                "class-avg": 26.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3178189,
+                    24.9993155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119185",
+                "station": "市立同安國小",
+                "total_child": 1245,
+                "class-avg": 25.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2981712,
+                    25.0214926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119186",
+                "station": "市立建德國小",
+                "total_child": 2062,
+                "class-avg": 28.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3149166,
+                    24.9766386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119187",
+                "station": "市立大有國小",
+                "total_child": 888,
+                "class-avg": 26.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3202341,
+                    25.0096184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119188",
+                "station": "市立慈文國小",
+                "total_child": 959,
+                "class-avg": 25.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3037613,
+                    25.0122424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119189",
+                "station": "市立大業國小",
+                "total_child": 1763,
+                "class-avg": 28.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3160189,
+                    25.0067122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119190",
+                "station": "市立同德國小",
+                "total_child": 1579,
+                "class-avg": 28.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.295937,
+                    25.0147821
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119191",
+                "station": "市立莊敬國小",
+                "total_child": 1440,
+                "class-avg": 26.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2926002,
+                    25.0212991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119192",
+                "station": "市立快樂國小",
+                "total_child": 840,
+                "class-avg": 26.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3153357,
+                    25.0184827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119193",
+                "station": "市立永順國小",
+                "total_child": 1369,
+                "class-avg": 26.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2971239,
+                    25.008715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "桃園區",
+                "station_id": "TPE500119195",
+                "station": "市立新埔國小",
+                "total_child": 688,
+                "class-avg": 24.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3063861,
+                    25.0181939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119196",
+                "station": "市立介壽國小",
+                "total_child": 67,
+                "class-avg": 11.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.35108,
+                    24.8154011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119197",
+                "station": "市立三民國小",
+                "total_child": 60,
+                "class-avg": 10.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3304509,
+                    24.832252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119198",
+                "station": "市立義盛國小",
+                "total_child": 33,
+                "class-avg": 5.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3984674,
+                    24.7854824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119199",
+                "station": "市立霞雲國小",
+                "total_child": 31,
+                "class-avg": 5.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3770336,
+                    24.709089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119200",
+                "station": "市立奎輝國小",
+                "total_child": 58,
+                "class-avg": 9.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					121.334663, 24.797388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119201",
+                "station": "市立光華國小",
+                "total_child": 16,
+                "class-avg": 2.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3981258,
+                    24.6650078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119202",
+                "station": "市立高義國小",
+                "total_child": 30,
+                "class-avg": 5.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3312882,
+                    24.7196751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119203",
+                "station": "市立長興國小",
+                "total_child": 34,
+                "class-avg": 5.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.30712,
+                    24.80033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119204",
+                "station": "市立三光國小",
+                "total_child": 30,
+                "class-avg": 5.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3598812,
+                    24.6652218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119205",
+                "station": "市立羅浮國小",
+                "total_child": 55,
+                "class-avg": 7.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.351304,
+                    24.7761692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "復興區",
+                "station_id": "TPE500119206",
+                "station": "市立巴崚國小",
+                "total_child": 35,
+                "class-avg": 5.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.383178,
+                    24.678931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119207",
+                "station": "市立新屋國小",
+                "total_child": 1295,
+                "class-avg": 25.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.101992,
+                    24.9740142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119208",
+                "station": "市立啟文國小",
+                "total_child": 47,
+                "class-avg": 7.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.11665,
+                    24.97899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119209",
+                "station": "市立東明國小",
+                "total_child": 46,
+                "class-avg": 7.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0849066,
+                    24.9762512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119210",
+                "station": "市立頭洲國小",
+                "total_child": 447,
+                "class-avg": 24.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1420887,
+                    24.9625488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119211",
+                "station": "市立永安國小",
+                "total_child": 147,
+                "class-avg": 16.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0456601,
+                    24.9873459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119212",
+                "station": "市立笨港國小",
+                "total_child": 36,
+                "class-avg": 6.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0256596,
+                    24.97431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119213",
+                "station": "市立北湖國小",
+                "total_child": 42,
+                "class-avg": 7.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0738278,
+                    24.98983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119214",
+                "station": "市立大坡國小",
+                "total_child": 100,
+                "class-avg": 16.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.067907,
+                    24.9826597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119215",
+                "station": "市立蚵間國小",
+                "total_child": 79,
+                "class-avg": 13.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0085996,
+                    24.9483285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119216",
+                "station": "市立社子國小",
+                "total_child": 53,
+                "class-avg": 8.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0816765,
+                    24.956797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "新屋區",
+                "station_id": "TPE500119217",
+                "station": "市立埔頂國小",
+                "total_child": 136,
+                "class-avg": 19.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.115545,
+                    24.9580099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119218",
+                "station": "私立大華高中附設國小",
+                "total_child": 191,
+                "class-avg": 27.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1727575,
+                    24.8824538
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119220",
+                "station": "市立仁美國中附設國小",
+                "total_child": 245,
+                "class-avg": 20.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1854362,
+                    24.9241539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119221",
+                "station": "市立楊梅國小",
+                "total_child": 1232,
+                "class-avg": 26.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1447072,
+                    24.905486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119222",
+                "station": "市立上田國小",
+                "total_child": 177,
+                "class-avg": 16.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1280781,
+                    24.9448208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119223",
+                "station": "市立大同國小",
+                "total_child": 934,
+                "class-avg": 25.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1492136,
+                    24.9097471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119224",
+                "station": "市立富岡國小",
+                "total_child": 522,
+                "class-avg": 26.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1275374,
+                    24.9146355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119225",
+                "station": "市立瑞原國小",
+                "total_child": 73,
+                "class-avg": 12.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1037044,
+                    24.9260585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119227",
+                "station": "市立上湖國小",
+                "total_child": 164,
+                "class-avg": 18.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0850347,
+                    24.9096082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119228",
+                "station": "市立水美國小",
+                "total_child": 156,
+                "class-avg": 17.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1372109,
+                    24.9187658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119229",
+                "station": "市立瑞埔國小",
+                "total_child": 706,
+                "class-avg": 22.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1855289,
+                    24.9164818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119230",
+                "station": "市立高榮國小",
+                "total_child": 406,
+                "class-avg": 23.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1637232,
+                    24.9366467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119231",
+                "station": "市立四維國小",
+                "total_child": 488,
+                "class-avg": 23.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1848188,
+                    24.9119224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119232",
+                "station": "市立瑞梅國小",
+                "total_child": 579,
+                "class-avg": 25.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1710208,
+                    24.9104997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119233",
+                "station": "市立楊明國小",
+                "total_child": 983,
+                "class-avg": 27.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1596737,
+                    24.9116652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119234",
+                "station": "市立瑞塘國小",
+                "total_child": 1373,
+                "class-avg": 30.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1795202,
+                    24.90813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119235",
+                "station": "市立楊心國小",
+                "total_child": 898,
+                "class-avg": 27.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1429819,
+                    24.9120693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "楊梅區",
+                "station_id": "TPE500119236",
+                "station": "市立楊光國(中)小",
+                "total_child": 1104,
+                "class-avg": 29.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1739359,
+                    24.907071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119237",
+                "station": "私立福祿貝爾國小",
+                "total_child": 151,
+                "class-avg": 25.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2147221,
+                    24.8539539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119239",
+                "station": "私立諾瓦國小",
+                "total_child": 281,
+                "class-avg": 23.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1777054,
+                    24.8448577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119240",
+                "station": "市立龍潭國小",
+                "total_child": 981,
+                "class-avg": 25.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2135145,
+                    24.8638743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119241",
+                "station": "市立德龍國小",
+                "total_child": 193,
+                "class-avg": 17.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1951038,
+                    24.8820866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119242",
+                "station": "市立潛龍國小",
+                "total_child": 877,
+                "class-avg": 25.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.209735,
+                    24.8811007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119243",
+                "station": "市立石門國小",
+                "total_child": 844,
+                "class-avg": 25.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2408306,
+                    24.8419163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119244",
+                "station": "市立高原國小",
+                "total_child": 380,
+                "class-avg": 22.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1939226,
+                    24.8302044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119245",
+                "station": "市立龍源國小",
+                "total_child": 108,
+                "class-avg": 18.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.211648,
+                    24.8255623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119246",
+                "station": "市立三和國小",
+                "total_child": 50,
+                "class-avg": 8.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1676327,
+                    24.8478446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119247",
+                "station": "市立武漢國小",
+                "total_child": 958,
+                "class-avg": 26.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2342659,
+                    24.8712085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119248",
+                "station": "市立龍星國小",
+                "total_child": 1158,
+                "class-avg": 27.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2175846,
+                    24.8626841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119249",
+                "station": "市立三坑國小",
+                "total_child": 75,
+                "class-avg": 12.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2485621,
+                    24.8362459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龍潭區",
+                "station_id": "TPE500119250",
+                "station": "市立雙龍國小",
+                "total_child": 1013,
+                "class-avg": 28.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.215179,
+                    24.8572912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119253",
+                "station": "市立龜山國小",
+                "total_child": 1227,
+                "class-avg": 25.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3388752,
+                    24.9940456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119254",
+                "station": "市立壽山國小",
+                "total_child": 205,
+                "class-avg": 17.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3646832,
+                    25.0030466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119255",
+                "station": "市立福源國小",
+                "total_child": 111,
+                "class-avg": 18.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3571076,
+                    24.9885286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119256",
+                "station": "市立大崗國小",
+                "total_child": 315,
+                "class-avg": 19.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3584666,
+                    25.0519758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119257",
+                "station": "市立大埔國小",
+                "total_child": 88,
+                "class-avg": 14.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3749232,
+                    25.0296912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119258",
+                "station": "市立大坑國小",
+                "total_child": 180,
+                "class-avg": 18.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.314656,
+                    25.0450217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119260",
+                "station": "市立山頂國小",
+                "total_child": 400,
+                "class-avg": 21.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3276375,
+                    24.9918697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119261",
+                "station": "市立龍壽國小",
+                "total_child": 99,
+                "class-avg": 14.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3879948,
+                    25.0110923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119262",
+                "station": "市立新路國小",
+                "total_child": 350,
+                "class-avg": 20.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3362938,
+                    24.9955465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119263",
+                "station": "市立樂善國小",
+                "total_child": 815,
+                "class-avg": 30.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3827504,
+                    25.0521344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119264",
+                "station": "市立迴龍國(中)小",
+                "total_child": 234,
+                "class-avg": 19.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.4050795,
+                    25.0194748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119265",
+                "station": "市立幸福國小",
+                "total_child": 809,
+                "class-avg": 24.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.330685,
+                    24.988856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119266",
+                "station": "市立文華國小",
+                "total_child": 999,
+                "class-avg": 28.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3648395,
+                    25.0501712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119267",
+                "station": "市立楓樹國小",
+                "total_child": 939,
+                "class-avg": 25.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3430557,
+                    25.005952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119268",
+                "station": "市立南美國小",
+                "total_child": 1732,
+                "class-avg": 27.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2969385,
+                    25.0478314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119269",
+                "station": "市立自強國小",
+                "total_child": 428,
+                "class-avg": 22.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3453726,
+                    24.9975371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119270",
+                "station": "市立文欣國小",
+                "total_child": 646,
+                "class-avg": 26.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3716291,
+                    25.0582097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119271",
+                "station": "市立長庚國小",
+                "total_child": 774,
+                "class-avg": 26.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3825146,
+                    25.0577498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "龜山區",
+                "station_id": "TPE500119272",
+                "station": "市立大湖國小",
+                "total_child": 431,
+                "class-avg": 23.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3599946,
+                    25.0579087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119273",
+                "station": "市立南崁國小",
+                "total_child": 1922,
+                "class-avg": 27.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3011017,
+                    25.0503008
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119274",
+                "station": "市立公埔國小",
+                "total_child": 315,
+                "class-avg": 21.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2858893,
+                    25.0718056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119275",
+                "station": "市立蘆竹國小",
+                "total_child": 157,
+                "class-avg": 17.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2670941,
+                    25.0506111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119276",
+                "station": "市立大竹國小",
+                "total_child": 1743,
+                "class-avg": 30.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2585793,
+                    25.0246743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119277",
+                "station": "市立新興國小",
+                "total_child": 293,
+                "class-avg": 19.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2650508,
+                    25.0082287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119278",
+                "station": "市立外社國小",
+                "total_child": 115,
+                "class-avg": 9.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3064888,
+                    25.0824319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119280",
+                "station": "市立頂社國小",
+                "total_child": 57,
+                "class-avg": 9.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3201838,
+                    25.0779962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119281",
+                "station": "市立海湖國小",
+                "total_child": 321,
+                "class-avg": 21.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2672532,
+                    25.1022488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119282",
+                "station": "市立山腳國小",
+                "total_child": 241,
+                "class-avg": 20.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2876667,
+                    25.0885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119283",
+                "station": "市立大華國小",
+                "total_child": 386,
+                "class-avg": 24.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2544765,
+                    25.0393482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119284",
+                "station": "市立新莊國小",
+                "total_child": 302,
+                "class-avg": 25.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2469989,
+                    25.0282612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119285",
+                "station": "市立錦興國小",
+                "total_child": 1695,
+                "class-avg": 26.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2898356,
+                    25.046624
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119286",
+                "station": "市立光明國小",
+                "total_child": 1846,
+                "class-avg": 26.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2911136,
+                    25.0405934
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "蘆竹區",
+                "station_id": "TPE500119287",
+                "station": "市立龍安國小",
+                "total_child": 1380,
+                "class-avg": 26.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.272447,
+                    24.9923368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119288",
+                "station": "市立觀音國小",
+                "total_child": 477,
+                "class-avg": 22.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0828183,
+                    25.0353997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119289",
+                "station": "市立大潭國小",
+                "total_child": 70,
+                "class-avg": 11.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0586285,
+                    25.0218379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119290",
+                "station": "市立保生國小",
+                "total_child": 40,
+                "class-avg": 6.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0714256,
+                    25.0065386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119291",
+                "station": "市立新坡國小",
+                "total_child": 890,
+                "class-avg": 26.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1374944,
+                    25.0128214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119292",
+                "station": "市立崙坪國小",
+                "total_child": 171,
+                "class-avg": 19.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1617432,
+                    24.9995018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119293",
+                "station": "市立上大國小",
+                "total_child": 188,
+                "class-avg": 15.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1467764,
+                    24.9788571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119294",
+                "station": "市立育仁國小",
+                "total_child": 43,
+                "class-avg": 7.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.102518,
+                    25.0132163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119295",
+                "station": "市立草漯國小",
+                "total_child": 1454,
+                "class-avg": 26.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1429776,
+                    25.045658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119296",
+                "station": "市立富林國小",
+                "total_child": 95,
+                "class-avg": 15.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1205306,
+                    25.0370073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "dist": "觀音區",
+                "station_id": "TPE500119297",
+                "station": "市立樹林國小",
+                "total_child": 116,
+                "class-avg": 16.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1284675,
+                    25.061942
+                ]
+            }
+        }
+    ]
+}
