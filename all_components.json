@@ -6089,7 +6089,7 @@
 							"name": "每班平均人數"
 						}
 					],
-					"icon": "youbike",
+					"icon": "element",
 					"type": "symbol",
 					"title": "國小概況"
 				}
@@ -6181,7 +6181,7 @@
 							"name": "每班平均人數"
 						}
 					],
-					"icon": "youbike",
+					"icon": "element",
 					"type": "symbol",
 					"title": "國小概況"
 				}
@@ -6283,7 +6283,7 @@
 							"name": "每班平均人數"
 						}
 					],
-					"icon": "youbike",
+					"icon": "element",
 					"type": "symbol",
 					"title": "國小概況"
 				}
@@ -6383,7 +6383,7 @@
 							"name": "每班平均人數"
 						}
 					],
-					"icon": "youbike",
+					"icon": "element",
 					"type": "symbol",
 					"title": "國小概況"
 				}
