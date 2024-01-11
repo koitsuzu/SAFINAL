@@ -5580,23 +5580,7 @@
 		"156": {
 			"id": 156,
 			"index": "foreign worker",
-			"map_config": [
-				{
-					"index": "Foreign worker",
-					"paint": {
-						"circle-color": [
-							"印尼人",
-							"#8ce8ff",
-							"菲律賓人",
-							"#b7e28e",
-							"泰國人",
-							"#7febd0",
-							"越南人",
-							"#81612a"
-						]
-					}
-				}
-			],
+			"map_config": null,
 			"chart_config": {
 				"color": [
 					"#7febd0",
@@ -5691,8 +5675,8 @@
 			"update_freq": 0,
 			"update_freq_unit": "",
 			"short_desc": "顯示每年的社宅數量",
-			"long_desc": "顯示每年社宅總共有多少棟，時間已預計完工時間為主。",
-			"use_case": "",
+			"long_desc": "",
+			"use_case": "顯示歷年來桃園市遷入人數、遷出人數及社會增加數，掌握此數據可反映出社會的人口結構變化、人口流動。",
 			"links": [
 				"https://pip.moi.gov.tw/V3/B/SCRB0505.aspx"
 			],
@@ -5750,9 +5734,9 @@
 			"time_to": null,
 			"update_freq": 10,
 			"update_freq_unit": "minute",
-			"short_desc": "顯示當前全市道路施工的數量統計",
-			"long_desc": "顯示當前全市道路施工的數量統計，資料來源為工務局，每10分鐘更新。",
-			"use_case": "圖表僅呈現行政區的施工數量統計，若要得知更具體的施工位置資訊，可透過地圖模式查詢。",
+			"short_desc": "顯示台北市、新北市、桃園市社宅數量統計",
+			"long_desc": "顯示台北市、新北市、桃園市社宅數量統計",
+			"use_case": "顯示前後幾年全台北市、新北市、桃園市的社宅數量統計，瞭解此數據有助於剖析社會政策、了解經濟與社會動態。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=c208dabd-2da0-4e6d-8dbd-a004b9782b0a"
 			],
@@ -5800,8 +5784,8 @@
 			"update_freq": null,
 			"update_freq_unit": null,
 			"short_desc": "顯示桃園各區移入人口數量",
-			"long_desc": "顯示桃園各區社宅數量，資料來源為內政部，不定期更新。",
-			"use_case": "醫療資源配置： ",
+			"long_desc": "",
+			"use_case": "藉由此區域圖顯示各區的112年移入人口數量 ",
 			"links": [
 				"https://data.taipei/dataset/detail?id=4888b142-2ee9-4ab3-896d-9bc1175b99c1"
 			],
@@ -5910,15 +5894,15 @@
 					]
 				]
 			},
-			"name": "社會住宅",
+			"name": "已完工社會住宅",
 			"source": "桃園市政府住宅發展處",
 			"time_from": "024-01-12T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"short_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置",
-			"long_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置，資料來源為桃園市政府住宅發展處開放資料，不定期更新。",
-			"use_case": "桃園市社會住宅點位的戶數和分布位置資料將幫助我們探討社宅在城市中的分佈情況及其相關性。",
+			"long_desc": "顯示目前桃園市社會住宅點位的戶數和分布位置，資料來源為桃園市政府住宅發展處開放資料，不定期更新",
+			"use_case": "此圖為桃園市已開放入住的各社宅戶數，並在地圖中顯示分布位置資料，將幫助我們探討社宅在城市中的分佈情況及其相關性。",
 			"links": [
 				"https://ohd.tycg.gov.tw/"
 			],
@@ -5931,54 +5915,62 @@
 			"id": 456,
 			"index": "hospitals",
 			"map_config": [
-					{
+				{
 					"index": "hos",
-					"property": [                                           
-							{
-								"key": "name",
-								"name": "名稱"
-							},
-							{
-								"key": "addr",
-								"name": "地址"
-							}
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
 					],
 					"type": "symbol",
 					"icon": "hos",
 					"size": "small",
 					"title": "醫療機構"
-					}
-					
+				}
 			],
-			"name": "醫療院所分布",
+			"name": "桃園醫療院所分布",
 			"chart_config": {
-					"types": ["MapLegend"],
-					"map_filter": ["hos", ["1", "0"]]
+				"types": [
+					"MapLegend"
+				],
+				"map_filter": [
+					"hos",
+					[
+						"1",
+						"0"
+					]
+				]
 			},
 			"chart_data": [
-					{
-							"type": "symbol",
-							"name": "醫院",
-							"color": "#86e9f6",
-							"value": null,
-							"icon": "hos"
-					},
-					{
-						"type": "symbol",
-						"name": "衛生所",
-						"color": "#86e9f6",
-						"value": null,
-						"icon": "health"
+				{
+					"type": "symbol",
+					"name": "醫院",
+					"color": "#86e9f6",
+					"value": null,
+					"icon": "hos"
+				},
+				{
+					"type": "symbol",
+					"name": "衛生所",
+					"color": "#86e9f6",
+					"value": null,
+					"icon": "health"
 				}
-			
-			],			
+			],
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"source": "衛生局",
-			"contributors": ["tuic"]
-        	},
+			"contributors": [
+				"tuic"
+			]
+		},
 		"600": {
 			"id": 600,
 			"index": "social_house",
@@ -6075,7 +6067,6 @@
 				"tuic"
 			]
 		},
-			
 		"162": {
 			"id": 162,
 			"index": "elementary",
@@ -6104,7 +6095,6 @@
 			],
 			"chart_config": {
 				"categories": [
-					
 					"八德區",
 					"大園區",
 					"大溪區",
@@ -6128,13 +6118,11 @@
 					"#1da886",
 					"#f0584d",
 					"#B15BFF"
-					
 				],
 				"unit": "間",
 				"map_filter": [
 					"dist",
 					[
-					
 						"八德區",
 						"大園區",
 						"大溪區",
@@ -6152,7 +6140,7 @@
 				]
 			},
 			"source": "教育局",
-			"name": "國小分布",
+			"name": "實際111年國小班級平均人數",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
 			"short_desc": "顯示當前全市國小分布",
@@ -6165,9 +6153,7 @@
 			"contributors": [
 				"tuic"
 			]
-		}
-		
-	,
+		},
 		"1120": {
 			"id": 1120,
 			"index": "112pre",
@@ -6180,7 +6166,6 @@
 							"key": "station",
 							"name": "國小名稱"
 						},
-						
 						{
 							"key": "total_child",
 							"name": "國小總人數"
@@ -6195,42 +6180,34 @@
 					"title": "國小概況"
 				}
 			],
-		
-		
-		
 			"chart_config": {
 				"categories": [
-				 "八德區",
-				 "大園區",
-				 "大溪區",
-				 "中壢區",
-				 "平鎮區",
-				 "桃園區",
-				 "復興區",
-				 "新屋區",
-				 "楊梅區",
-				 "龍潭區",
-				 "龜山區",
-				 "蘆竹區",
-				 "觀音區"
+					"八德區",
+					"大園區",
+					"大溪區",
+					"中壢區",
+					"平鎮區",
+					"桃園區",
+					"復興區",
+					"新屋區",
+					"楊梅區",
+					"龍潭區",
+					"龜山區",
+					"蘆竹區",
+					"觀音區"
 				],
 				"types": [
 					"ColumnChart",
 					"BarPercentChart"
-				   ],
-				   "color": [
-					
+				],
+				"color": [
 					"#ffc952",
 					"#1da886",
 					"#f0584d",
 					"#B15BFF"
-					
-					
-				   ],
-				   "unit": "間",
-		
-		
-				   "map_filter": [
+				],
+				"unit": "間",
+				"map_filter": [
 					"dist",
 					[
 						"八德區",
@@ -6247,16 +6224,10 @@
 						"蘆竹區",
 						"觀音區"
 					]
-			]
-		
-		
-				
-				
+				]
 			},
 			"source": "教育局",
-			"name": "預測112國小",
-			
-			
+			"name": "預測112年國小班級平均人數",
 			"short_desc": "顯示112年全市國小分布",
 			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
 			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
@@ -6264,12 +6235,10 @@
 				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
-		}
-		
-
-		,
-
+			"contributors": [
+				"tuic"
+			]
+		},
 		"1130": {
 			"id": 1130,
 			"index": "113pre",
@@ -6282,7 +6251,6 @@
 							"key": "station",
 							"name": "國小名稱"
 						},
-						
 						{
 							"key": "total_child",
 							"name": "國小總人數"
@@ -6297,42 +6265,34 @@
 					"title": "國小概況"
 				}
 			],
-		
-		
-		
 			"chart_config": {
 				"categories": [
-				 "八德區",
-				 "大園區",
-				 "大溪區",
-				 "中壢區",
-				 "平鎮區",
-				 "桃園區",
-				 "復興區",
-				 "新屋區",
-				 "楊梅區",
-				 "龍潭區",
-				 "龜山區",
-				 "蘆竹區",
-				 "觀音區"
+					"八德區",
+					"大園區",
+					"大溪區",
+					"中壢區",
+					"平鎮區",
+					"桃園區",
+					"復興區",
+					"新屋區",
+					"楊梅區",
+					"龍潭區",
+					"龜山區",
+					"蘆竹區",
+					"觀音區"
 				],
 				"types": [
 					"ColumnChart",
 					"BarPercentChart"
-				   ],
-				   "color": [
-					
+				],
+				"color": [
 					"#ffc952",
 					"#1da886",
 					"#f0584d",
 					"#B15BFF"
-					
-					
-				   ],
-				   "unit": "間",
-		
-		
-				   "map_filter": [
+				],
+				"unit": "間",
+				"map_filter": [
 					"dist",
 					[
 						"八德區",
@@ -6349,16 +6309,10 @@
 						"蘆竹區",
 						"觀音區"
 					]
-			]
-		
-		
-				
-				
+				]
 			},
 			"source": "教育局",
-			"name": "預測113國小",
-			
-			
+			"name": "預測113年國小班級平均人數",
 			"short_desc": "顯示113年全市國小分布",
 			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
 			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
@@ -6366,10 +6320,10 @@
 				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
-		}
-		,
-
+			"contributors": [
+				"tuic"
+			]
+		},
 		"1140": {
 			"id": 1140,
 			"index": "114pre",
@@ -6382,7 +6336,6 @@
 							"key": "station",
 							"name": "國小名稱"
 						},
-						
 						{
 							"key": "total_child",
 							"name": "國小總人數"
@@ -6397,42 +6350,34 @@
 					"title": "國小概況"
 				}
 			],
-		
-		
-		
 			"chart_config": {
 				"categories": [
-				 "八德區",
-				 "大園區",
-				 "大溪區",
-				 "中壢區",
-				 "平鎮區",
-				 "桃園區",
-				 "復興區",
-				 "新屋區",
-				 "楊梅區",
-				 "龍潭區",
-				 "龜山區",
-				 "蘆竹區",
-				 "觀音區"
+					"八德區",
+					"大園區",
+					"大溪區",
+					"中壢區",
+					"平鎮區",
+					"桃園區",
+					"復興區",
+					"新屋區",
+					"楊梅區",
+					"龍潭區",
+					"龜山區",
+					"蘆竹區",
+					"觀音區"
 				],
 				"types": [
 					"ColumnChart",
 					"BarPercentChart"
-				   ],
-				   "color": [
-					
+				],
+				"color": [
 					"#ffc952",
 					"#1da886",
 					"#f0584d",
 					"#B15BFF"
-					
-					
-				   ],
-				   "unit": "間",
-		
-		
-				   "map_filter": [
+				],
+				"unit": "間",
+				"map_filter": [
 					"dist",
 					[
 						"八德區",
@@ -6449,16 +6394,10 @@
 						"蘆竹區",
 						"觀音區"
 					]
-			]
-		
-		
-				
-				
+				]
 			},
 			"source": "教育局",
-			"name": "預測114國小",
-			
-			
+			"name": "預測114年國小班級平均人數",
 			"short_desc": "顯示114年全市國小分布",
 			"long_desc": "顯示全市國小分布，也顯示112年預測國小總人數及班級平均人數。",
 			"use_case": "藉由全市國小分布，也顯示預測國小總人數及班級平均人數，可掌握全市國小分布以及大約人數，並可在地圖模式查詢各國小位置及預測人數資訊。",
@@ -6466,9 +6405,106 @@
 				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
 			],
 			"tags": [],
-			"contributors": ["tuic"]
+			"contributors": [
+				"tuic"
+			]
+		},
+		"555": {
+			"id": 555,
+			"index": "road",
+			"map_config": [
+				{
+					"index": "road",
+					"paint": {
+						"line-color": "#009688"
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "line",
+					"icon": "dash",
+					"title": "自行車道"
+				}
+			],
+			"name": "醫療院所分布",
+			"chart_config": {
+				"types": [
+					"MapLegend"
+				],
+				"map_filter": [
+					"type",
+					[
+						"醫院",
+						"衛生所"
+					]
+				]
+			},
+			"chart_data": [
+				{
+					"type": "symbol",
+					"name": "醫院",
+					"color": "#86e9f6",
+					"value": null,
+					"icon": "hos"
+				}
+			],
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"source": "衛生局",
+			"contributors": [
+				"tuic"
+			]
+		},
+		"6666": {
+			"id": 6666,
+			"index": "social_house",
+			"map_config": null,
+			"chart_config": {
+				"color": [
+					"#fff495",
+					"#ddb11f",
+					"#e3863a",
+					"#c2651c",
+					"#a65818"
+				],
+				"types": [
+					"newChart"
+				],
+				"unit": "棟",
+				"map_filter": [
+					"progress",
+					[
+						"Feb",
+						"Mar",
+						"Apr"
+					]
+				]
+			},
+			"name": "社會住宅建設進度",
+			"source": "都發局",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "day",
+			"short_desc": "顯示目前社會住宅點位及建設進度",
+			"long_desc": "顯示目前社會住宅點位及建設進度，資料來源為台北市都發局公開資料，每日更新。",
+			"use_case": "了解台北市社會住宅的興建進度及其具體位置，以及如何與社會福利機構的設置相關聯，並考慮人口需求的分布，從而制定更適合提供社會福利服務的社會住宅計畫。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=659c3565-df41-4f80-915f-95e83071bdcd"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
 		}
-		
-		
 	}
 }
